@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "36_eternal_starlight"
+	group: "62488ED1F07C9AC2"
+	id: "423839F5B51D9BBC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "50BF7245D2F57DA0"
+			rewards: [
+				{
+					id: "5B13B5D5FD84BFD5"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "32BB56A4F4908ACD"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "4B3C8DC96E8E9A8D"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50BF7245D2F57DA0"]
+			id: "70BCF3CA6EBC357A"
+			rewards: [
+				{
+					id: "18353003531078D9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4B28A4FABAE1C7CF"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3C324FCE8E7E5BE5"
+				item: { count: 1, id: "eternal_starlight:starlight_flower" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70BCF3CA6EBC357A"]
+			id: "52A68404AA97FAD2"
+			rewards: [
+				{
+					id: "1AE9B9BC866B2DC8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "30CBD27C25E42C5F"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "49BE6D58AA0EDA6C"
+				item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A68404AA97FAD2"]
+			id: "78DF118335E4828E"
+			rewards: [
+				{
+					id: "1C7BCFDC5B8C5FB7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "56BF20A8F7D40CDB"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2D94A1790574BD62"
+				item: { count: 1, id: "eternal_starlight:red_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "44B82A84FDDCF1DD"
+			rewards: [
+				{
+					id: "24CA4FC9235EBFAB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "062E02B07098FF8D"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "137B195CCD68FE5E"
+				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44B82A84FDDCF1DD"]
+			id: "45EA39710659C1AF"
+			rewards: [
+				{
+					id: "6593F775C5141525"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "35024F7C93B704C3"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "585BEA18B7F650B3"
+				item: { count: 1, id: "eternal_starlight:golem_steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45EA39710659C1AF"]
+			id: "650F9F0DBC4185D1"
+			optional: true
+			rewards: [
+				{
+					id: "6C1E845DDFC706CE"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "6A8C0D44BBF059FA"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "743CD677A530681D"
+				item: { count: 1, id: "eternal_starlight:crystal_crossbow" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "2B92D5C7EB100153"
+			optional: true
+			rewards: [
+				{
+					id: "668490AF22C1DB16"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "06D5833EC61A0DB2"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				id: "32D116D7E7F5B0FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B92D5C7EB100153"]
+			id: "5B17C3BE0C68C14F"
+			optional: true
+			rewards: [
+				{
+					id: "2B21F0DC84A62014"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "71FDCC05198085D2"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "eternal_starlight:the_gatekeeper"
+				id: "231100CC49E84343"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B17C3BE0C68C14F"]
+			id: "5FCBCFD6DF60D032"
+			optional: true
+			rewards: [
+				{
+					id: "38A20A30476DD1C6"
+					type: "xp"
+					xp: 225
+				}
+				{
+					count: 2
+					id: "01EB3EA0714FF248"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				id: "7FF1CCCCD5D10603"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FCBCFD6DF60D032"]
+			id: "5ECC5687A3786D5B"
+			rewards: [
+				{
+					id: "593979932D2A04AA"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "50AFA8D3132C9108"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_flower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "563CE23E9B07A4B3"
+				item: { count: 1, id: "eternal_starlight:starlight_silver_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "6A7D860B3EE5447D"
+			rewards: [
+				{
+					id: "4106A29576C0D7A1"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "74C265719E02651A"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3ECDC8168FB426D8"
+				item: { count: 1, id: "eternal_starlight:starlight_silver_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+}

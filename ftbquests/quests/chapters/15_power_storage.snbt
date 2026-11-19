@@ -1,0 +1,571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "15_power_storage"
+	group: ""
+	id: "1DBE5A45B83DA538"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "252B6D4B1DB6ED64"
+			rewards: [
+				{
+					id: "1D1D378B350AADCB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "4210608A1AD0661E"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5FD0AF3A832C8AFD"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252B6D4B1DB6ED64"]
+			id: "34D851E20791E23F"
+			rewards: [
+				{
+					id: "392A0C81542A2215"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "4373B80ACC741F61"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2E2BC5AC5D729B18"
+				item: { count: 1, id: "powah:dielectric_rod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "454EABD6E2DF5A33"
+			rewards: [
+				{
+					id: "6EAA6ED8E35DF577"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "0179AD4000D9C6F7"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6FD2E7ADA4E7B1B4"
+				item: { count: 1, id: "powah:capacitor_basic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "4B5A382F89BD690B"
+			rewards: [
+				{
+					id: "66E01EF9502E92C5"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "32748A0671BC464A"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "30F09C8B16236644"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B5A382F89BD690B"]
+			id: "6899CCDCCAE1ACB5"
+			rewards: [
+				{
+					id: "124FCEDB8370C536"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "453149D0F3079C87"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2A43860277C169A2"
+				item: { count: 1, id: "powah:energizing_rod_basic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "4EA54F3C21554019"
+			rewards: [
+				{
+					id: "11D7FB651ADFA9A9"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "26DF40D8BA2B910C"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "329111C483701C61"
+				item: { count: 1, id: "powah:solar_panel_basic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EA54F3C21554019"]
+			id: "445B55695D557412"
+			rewards: [
+				{
+					id: "01061C20AC99C774"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "4A200E7DEB576428"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "649D11E9A1832A36"
+				item: { count: 1, id: "powah:thermo_generator_basic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "61FC4CE753FF9CAD"
+			rewards: [
+				{
+					id: "60EFFCFBB37EDB0D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "1BF95444A7050B1F"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5C42F670863D9F52"
+				item: { count: 1, id: "powah:battery_basic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "309EDD2291C080DB"
+			optional: true
+			rewards: [
+				{
+					id: "3D9FF9F4B45ECF96"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "07C8872CE6B5A248"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "79371AFB660672AE"
+				item: { count: 1, id: "powah:energizing_rod_nitro" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "3519B5B76CF405F5"
+			optional: true
+			rewards: [
+				{
+					id: "49852190A33895D0"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "0C6E66DA9FB36111"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0A388300032CC6C9"
+				item: { count: 1, id: "powah:reactor_nitro" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "284E15C6B4A865C5"
+			rewards: [
+				{
+					id: "7D03D6EFD027B0F0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "2E89218F6148D939"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "028BBC950DAB11A2"
+				item: { count: 1, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "6A157CEBEF4D1776"
+			rewards: [
+				{
+					id: "4AE7EC2ED9EF064B"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "0D7572C4A20CE190"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "102708D83F01F112"
+				item: { count: 1, id: "functionalstorage:compacting_drawer" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "2B653E2AE52FBC82"
+			rewards: [
+				{
+					id: "532C2B2DCBED0353"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "06B66CE5B1D46BC8"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "103DFA172FB7A3D2"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "3FE11686C649DE93"
+			rewards: [
+				{
+					id: "24B17DC6557CC13A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "3657E8E32FC94B71"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "43BC1C727DB67EB4"
+				item: { count: 1, id: "functionalstorage:linking_tool" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FE11686C649DE93"]
+			id: "20D9826BB0108FCA"
+			rewards: [
+				{
+					id: "5EB3187039505C71"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "33FF9ECC6921AEC9"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "62A2C30654AE494A"
+					item: { count: 1, id: "moderndynamics:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "4C5F8D0C336B7673"
+					item: { count: 1, id: "moderndynamics:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20D9826BB0108FCA"]
+			id: "62606130C606D763"
+			rewards: [
+				{
+					id: "4EC5F7EECE0FBA85"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "3B614A2B4F59DDD2"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7661DAE8328D5ABD"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "01DC47F0216F4D68"
+			optional: true
+			rewards: [
+				{
+					id: "2AF94D917FE0062A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "636EC2545FB72D79"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "011B2BCB351CD723"
+				item: { count: 1, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "7400565B5E47C383"
+			optional: true
+			rewards: [
+				{
+					id: "745322637994DA32"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "0707425F6390F53A"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "56553897C0ECF52B"
+				item: { count: 1, id: "powah:player_transmitter_basic" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "72B2A61EA5AEE64E"
+			optional: true
+			rewards: [
+				{
+					id: "53FF7ABA3B6337BF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "165A3CDC8F4E537C"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "06C34F40C5531BB8"
+				item: { count: 1, id: "powah:energizing_rod_blazing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72B2A61EA5AEE64E"]
+			id: "6CDF9C3A685016D4"
+			optional: true
+			rewards: [
+				{
+					id: "0508B18C4C1A6D7A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "685EC0AF9F107C20"
+					item: {
+						count: 1
+						id: "powah:dielectric_paste"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3E15630D9EAA437E"
+				item: { count: 1, id: "powah:solar_panel_nitro" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}

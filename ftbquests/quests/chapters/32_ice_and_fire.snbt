@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "32_ice_and_fire"
+	group: "62488ED1F07C9AC2"
+	id: "0DF760932D8FBC8B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "158596E4265902C4"
+			rewards: [
+				{
+					id: "6D4CE85E326624C2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0411C437B1FC186A"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "67B4272BEDF8A12F"
+				item: { count: 1, id: "iceandfire:manuscript" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "53BE1F80CD2870B5"
+			rewards: [
+				{
+					id: "129002C463A04493"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6103D83A459E8B03"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5647E0164478547D"
+				item: { count: 1, id: "iceandfire:bestiary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53BE1F80CD2870B5"]
+			id: "6277DF14975F06F0"
+			optional: true
+			rewards: [
+				{
+					id: "16AE5B70CF47732D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5A2357FB7A88F134"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "654C8D9F464E89FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6277DF14975F06F0"]
+			id: "6214FEA55C89B77C"
+			optional: true
+			rewards: [{
+				id: "2B78E0436CBBABB5"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "577D4BC7CCA8563E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6214FEA55C89B77C"]
+			id: "28F8EB6A56FC16CA"
+			rewards: [
+				{
+					id: "6ECE5B0E59B80BE3"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "065169B0F4D79771"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4196B0C702528767"
+				item: { count: 1, id: "iceandfire:dragonbone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28F8EB6A56FC16CA"]
+			id: "1081AA10431F5CD3"
+			rewards: [
+				{
+					id: "063837FB9059D35C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7F4A7054CE42B0AF"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "48DDDC333146A9CE"
+				item: { count: 1, id: "iceandfire:dragonbone_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1081AA10431F5CD3"]
+			id: "1B10E4D0254785E7"
+			rewards: [
+				{
+					id: "3B22B49E5EBF954D"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "40818E12EB56A2AF"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0A127DFAB4741550"
+				item: { count: 1, id: "iceandfire:dragonscales_red" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "67FB862DF6BFD7EB"
+			rewards: [
+				{
+					id: "288F9F917054381C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "20028E83620DE779"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "41CFAE24D14FB15E"
+				item: { count: 1, id: "iceandfire:dragonscales_sapphire" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1CA9A3C4E3851FE4"
+			rewards: [
+				{
+					id: "70A0D84720325A90"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4A6B35F669DA142F"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4DC4CFF1350B150F"
+				item: { count: 1, id: "iceandfire:dragonscales_electric" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CA9A3C4E3851FE4"]
+			id: "7FF71C17DC72D40F"
+			rewards: [
+				{
+					id: "32BA8A7D3E353AC4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "68EB0864BA1908A4"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "699768B47C417E2D"
+				item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FF71C17DC72D40F"]
+			id: "661FD24FE3BCDCEF"
+			rewards: [
+				{
+					id: "70D716409FEDA378"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "13B8E94548093ED4"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1EA3B2261265EE23"
+				item: { count: 1, id: "iceandfire:dragonbone_sword_fire" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "798343785E697488"
+			rewards: [
+				{
+					id: "0F44882311FA6C65"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "6BA7DAA1EAF695F8"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "20803AFA3DD8DBA3"
+				item: { count: 1, id: "iceandfire:dragon_horn" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6212B5A35CDE6A79"
+			rewards: [
+				{
+					id: "2F59B7F5FB07C18F"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2A3FBFBA9A252A43"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1D7F9EB9EA8C945A"
+				item: { count: 1, id: "iceandfire:dragon_flute" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "46B8C72D0989A357"
+			rewards: [
+				{
+					id: "6405F3E6E2585FE3"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "4C1DD5E4884E8347"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3095A7159A9E7F32"
+				item: { count: 1, id: "iceandfire:dragon_stick" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "2C710B55DD3EC28E"
+			optional: true
+			rewards: [
+				{
+					id: "47A95492E1988A3D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "55E4A4E5FCDB4F3F"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "68597D8B254009CA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "06F81BF9169116E1"
+			optional: true
+			rewards: [
+				{
+					id: "41E453931A118D3D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "729970BFF2FB0788"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "490AA37DB350925F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "5DD6C30422791514"
+			optional: true
+			rewards: [
+				{
+					id: "07C4B8E0D567CB75"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "4368F5AA72C647FE"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "1D4DB5E7BD5620BC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "291E5E6099CAFA2C"
+			rewards: [
+				{
+					id: "37E44AC7E92A0040"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5AC7CEFE43DB6A0D"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2939A975295414A5"
+				item: { count: 1, id: "iceandfire:dragonforge_fire_input" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "38C18177A676E103"
+			optional: true
+			rewards: [{
+				id: "67021BECDBF17F9C"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "579EA7FF28C2931C"
+				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "796F275C971DF014"
+			optional: true
+			rewards: [
+				{
+					id: "51C95C36F31CAEB7"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "628550E4AC400145"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:dread_queen"
+				id: "47EC16EC6245BD67"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+}

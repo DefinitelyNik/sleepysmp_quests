@@ -1,0 +1,682 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "11_create_addons"
+	group: ""
+	id: "0C860B0EA404E39E"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "34A559DFD431C5F5"
+			rewards: [
+				{
+					id: "6269F11E609233E7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "79203FF92E6189DA"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7630EEE340785CD9"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "56773674B427495C"
+			rewards: [
+				{
+					id: "4E270CFEECF31D9C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "170FDA79DF393684"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "44AA584968CCB006"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56773674B427495C"]
+			id: "22F820849A95FA15"
+			rewards: [
+				{
+					id: "60DF7D2D556493A6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5A2E1036BDCC5609"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5FFF7FA70C6C5454"
+				item: { count: 1, id: "createaddition:connector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22F820849A95FA15"]
+			id: "26005AF245A60489"
+			rewards: [
+				{
+					id: "3226409B01F7A070"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "07D10B880AD2D05D"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5E2E4CA7BE3940B9"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "317EA969D8CBFC70"
+			rewards: [
+				{
+					id: "47F8057636D3AE75"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "6A7807D3D3A642D6"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "76F330F91959588F"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "527E73E235AAA1D4"
+			rewards: [
+				{
+					id: "7AC7EA33B2D524FB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "5D479076D67B5B72"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6F6A55F6D39BCFB6"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["527E73E235AAA1D4"]
+			id: "678F509D13BFAB07"
+			rewards: [
+				{
+					id: "19182A1CE04FC32B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "3FE77CD86A10A502"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "76CF4DAD4AFB3C35"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "49D9B2F6B076FF56"
+			optional: true
+			rewards: [
+				{
+					id: "05CC80CE4259F5EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "506B5BE4BE5DE937"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0DD602D944D08F66"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49D9B2F6B076FF56"]
+			id: "34CB6D8CF32FB78A"
+			rewards: [
+				{
+					id: "76F342A225BAFF9A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "537FD1375D18BA7B"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5DFA339B61B4476A"
+				item: { count: 1, id: "railways:blue_conductor_cap" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "6FF2931440810A9B"
+			optional: true
+			rewards: [
+				{
+					id: "43D42EBFC54B1686"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "6FA9089425D38304"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5F6D6B3F37542C89"
+				item: { count: 1, id: "railways:track_coupler" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "186E98D8303D2DF6"
+			optional: true
+			rewards: [
+				{
+					id: "1E456B082730312E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "46B2D074EDBFC753"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1F4252F03B22FCD6"
+				item: { count: 1, id: "create_connected:inventory_bridge" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "00FAF75FBEBC0702"
+			optional: true
+			rewards: [
+				{
+					id: "61FA14B008CDB5D2"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "6F3C8713CB65A92A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "589426F5032BFF6E"
+				item: { count: 1, id: "createoreexcavation:vein_finder" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "57B98973DCFB0D57"
+			optional: true
+			rewards: [
+				{
+					id: "533E1E9E8D1B561F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "1D6973BA10F2FBFE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4BFD8FF935985D68"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "63B9B6D8DB4EB716"
+			optional: true
+			rewards: [
+				{
+					id: "2B4AD1FB3C1A95B5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "2E4593BC0E743E74"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "09EAA887357EF364"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "7E61E61D54994886"
+			optional: true
+			rewards: [
+				{
+					id: "14E53543B29749BF"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "2CA0BFE8C27831A6"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5CEEB8025C31DC9D"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1721C537618C8C30"
+			optional: true
+			rewards: [
+				{
+					id: "5A2C6D5A5FE64264"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "5C85447C4F33C623"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4919B09F68664CEC"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1721C537618C8C30"]
+			id: "3739489CFBC31C9F"
+			optional: true
+			rewards: [
+				{
+					id: "060ADC90C188D9AE"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "702D3967DBD2AA5B"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "12954B5B974DF974"
+				item: { count: 1, id: "tfmg:pumpjack_base" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "0F2F7E9DF36C3879"
+			optional: true
+			rewards: [
+				{
+					id: "6C5BA1E36A466661"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "5A8EDE63EA859C0E"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "275D971D777C7B53"
+				item: { count: 1, id: "create:propeller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "568A317D5CAB2C8D"
+			optional: true
+			rewards: [
+				{
+					id: "02B19403B758A46D"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "21A89E829B723A06"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7C1CB817064AEEE3"
+				item: { count: 1, id: "droneworks:drone_core" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "07F99322F205B1EB"
+			optional: true
+			rewards: [
+				{
+					id: "6E4E0E69DAD337CC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "514F6384DAC5285D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "06E47D3157D958CF"
+				item: { count: 1, id: "create_radar:radar_dish_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "2E485118DC6D4EB5"
+			optional: true
+			rewards: [
+				{
+					id: "1F08544F6A964EBC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4D22343DA5E92AF4"
+					item: {
+						count: 1
+						id: "createaddition:electrum_nugget"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "205A05462756F891"
+				item: { count: 1, id: "createaddition:portable_energy_interface" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "118C9459877BD532"
+			optional: true
+			rewards: [
+				{
+					id: "380F9E1EB4B4EAA5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "773C2C1FB310A600"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6B083629775370CF"
+				item: { count: 1, id: "railways:semaphore" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "5C9DF766B69055B2"
+			optional: true
+			rewards: [
+				{
+					id: "43262896E557E32C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "1B4CBAF141E3C9A1"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "328F8D4821BE9655"
+				item: { count: 1, id: "create_connected:sequenced_pulse_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C9DF766B69055B2"]
+			id: "4B550DCCF253DF27"
+			optional: true
+			rewards: [
+				{
+					id: "1C94F0C2522A8373"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "6B618CDD02954816"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2D87D87CBEE71479"
+				item: { count: 1, id: "create_new_age:basic_energiser" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+	]
+}

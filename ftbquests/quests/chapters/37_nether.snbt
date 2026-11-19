@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "37_nether"
+	group: "62488ED1F07C9AC2"
+	id: "0C95DBB289AF3257"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05A6F9E88C23AB94"
+			rewards: [
+				{
+					id: "03AF2EDC5B751841"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "05AAF9BEC59E1448"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6E153B70E2FAFBB6"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05A6F9E88C23AB94"]
+			id: "07B82BE6046CE2BB"
+			rewards: [
+				{
+					id: "5B248F5716C96099"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "37E7E19692A4EF70"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4395CD71A9CFA531"
+				item: { count: 1, id: "minecraft:nether_brick_fence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "77AF4219DCEF4003"
+			rewards: [
+				{
+					id: "44482713F466A2EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "74D43D246C2A8CC6"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7AE5E5E77809531D"
+				item: { count: 1, id: "minecraft:lodestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77AF4219DCEF4003"]
+			id: "2E371D77F058648E"
+			rewards: [
+				{
+					id: "2F68BBDEC6BF2661"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "054CA150AE10A2BF"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "160649AEE1911E20"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "4C2BE6C04BCCDFE9"
+			rewards: [
+				{
+					id: "27D8FAEEFB6EBEE0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "76430AE2F5622BE9"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0975946723E51018"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "6B17B59C331B0C23"
+			rewards: [
+				{
+					id: "6273E84EC3427DE9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "43F92282C4AA8237"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0242B48B98E45B01"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "5F9F1E6B99AF317F"
+			rewards: [
+				{
+					id: "76993CEA719832DD"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "07C393D8D7C428D4"
+					item: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0D2FCF68CB02946B"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F9F1E6B99AF317F"]
+			id: "48729C5AB3C5D677"
+			rewards: [
+				{
+					id: "1C67B9C9AC84176F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "0998A9CAAD2BF36B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "01D172B569F384B3"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "3326CDA5C9644279"
+			optional: true
+			rewards: [
+				{
+					id: "2ADA755141BEC754"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "6F198170B9D957B0"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6CE75CF9288F6C92"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3326CDA5C9644279"]
+			id: "5CBFC71BF7BB2862"
+			optional: true
+			rewards: [
+				{
+					id: "34D0BB9F2583027F"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "219F500E8B6F0F67"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4938FBDE192FD3A3"
+				item: { count: 1, id: "mynethersdelight:stuffed_pepper" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+}

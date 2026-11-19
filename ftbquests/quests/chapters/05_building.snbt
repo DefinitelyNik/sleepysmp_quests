@@ -1,0 +1,411 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "05_building"
+	group: ""
+	id: "45136FF0C4951466"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "47812745651C14F3"
+			rewards: [
+				{
+					id: "7FA82C75746C378D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "2350FF9CC5A369CD"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "799BBD84BD6F55E7"
+				item: { count: 1, id: "minecraft:oak_door" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47812745651C14F3"]
+			id: "52A3512EB028B15C"
+			rewards: [
+				{
+					id: "404303D453425D63"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "05927D4F9A0609BB"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "11AD1A09D080AFB1"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A3512EB028B15C"]
+			id: "11FA054B80FA1186"
+			optional: true
+			rewards: [
+				{
+					id: "05D5189ADD104254"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "3F4D20C0B9501113"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7CDDBCD97E07D481"
+				item: { count: 1, id: "supplementaries:globe" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "07F6874886D694E7"
+			optional: true
+			rewards: [
+				{
+					id: "79950507EE770397"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "75D6973642727F5C"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "658164B92EEE4797"
+				item: { count: 1, id: "handcrafted:oak_counter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0508F1541A7CC8B7"
+			optional: true
+			rewards: [
+				{
+					id: "64AC33BCC898A1D1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "4542B319C9AB6B70"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4D9499EF987FE086"
+				item: { count: 1, id: "mcwwindows:oak_window" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0508F1541A7CC8B7"]
+			id: "678FDC99FB36AE18"
+			optional: true
+			rewards: [
+				{
+					id: "64DBB48C9FE4F1B1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "0C8ED6CA955251A1"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "58A62DC84DCF9797"
+				item: { count: 1, id: "minecraft:oak_stairs" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "7CF712FEF702DCD8"
+			optional: true
+			rewards: [
+				{
+					id: "1209006724700674"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "06594B320BA474EF"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1326F01A5AA65265"
+				item: { count: 1, id: "copycats:copycat_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CF712FEF702DCD8"]
+			id: "53D7DFAF33706177"
+			optional: true
+			rewards: [
+				{
+					id: "1D690AA4B723C62F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "24489CD2BD4A1547"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "53E279B6A1A1F912"
+				item: { count: 1, id: "interiors:white_floor_chair" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53D7DFAF33706177"]
+			id: "0A988DA7BD8941EB"
+			optional: true
+			rewards: [
+				{
+					id: "0390DC6F260FD3CA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5EDB52FB50115241"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2ADF5AAB0E8AFCDE"
+				item: { count: 1, id: "createdeco:industrial_iron_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A988DA7BD8941EB"]
+			id: "2C5AD925718660EB"
+			rewards: [
+				{
+					id: "0B2B19CB3CB464ED"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "73D951243E860F0C"
+					item: {
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "615C3EFF2421181E"
+				item: { count: 1, id: "minecraft:painting" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C5AD925718660EB"]
+			id: "58A1A527B160836E"
+			optional: true
+			rewards: [
+				{
+					id: "24226E334D5D792B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4972DC9393C575C4"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "14DA02D9AD9BD928"
+				item: { count: 1, id: "supplementaries:jar" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["58A1A527B160836E"]
+			id: "203B8E4D9390AC43"
+			optional: true
+			rewards: [
+				{
+					id: "4FC6F82BBA054BCE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5AF690A315A02B94"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1878EAFCB725A57B"
+				item: { count: 1, id: "supplementaries:item_shelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["203B8E4D9390AC43"]
+			id: "286CD2EBE2B2CE74"
+			optional: true
+			rewards: [
+				{
+					id: "1A1FB98CD7E1DD12"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4B0EDA1319FCB148"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6D17B1982F6686B2"
+				item: { count: 1, id: "handcrafted:oak_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["286CD2EBE2B2CE74"]
+			id: "3B0E8D69580D40FC"
+			optional: true
+			rewards: [
+				{
+					id: "12F14203D43E6E68"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3C0837F48D826BC7"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "22CD727433634745"
+				item: { count: 1, id: "mcwwindows:oak_window2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

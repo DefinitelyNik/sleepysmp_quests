@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "23_neovitae"
+	group: "01E2E4898BB48984"
+	id: "6DBC7EF09961CF2F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5DDC569C96328B22"
+			rewards: [
+				{
+					id: "0551409F8366E967"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "6DB3A29A443D90F3"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "72643D610C8AEBC7"
+				item: { count: 1, id: "neovitae:tabula_vitae" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDC569C96328B22"]
+			id: "3439AC1F54747448"
+			rewards: [
+				{
+					id: "396CC365B98A4693"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "41761D7EE5B6CB4E"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7CDF8701745F2A6D"
+				item: { count: 1, id: "neovitae:ara_vitae" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3439AC1F54747448"]
+			id: "1225BEAB6CEE2D17"
+			rewards: [
+				{
+					id: "71D3D7E4D9F566F8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "52B4CE62C87BBC46"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6717EBA05826E7C8"
+				item: { count: 1, id: "neovitae:blood_orb_weak" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6B74F20273C5296F"
+			rewards: [
+				{
+					id: "60B7DAEAD1B8C751"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "6136978DC28489A4"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2B268F58B7506BE0"
+				item: { count: 1, id: "neovitae:rune_blank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B74F20273C5296F"]
+			id: "01B595F30E3D8631"
+			rewards: [
+				{
+					id: "71A4B79E1C81A146"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "40DEBF7F0924A45A"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1635FFE3C875A3D6"
+				item: { count: 1, id: "neovitae:rune_sacrifice" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01B595F30E3D8631"]
+			id: "247402DABDCE3960"
+			rewards: [
+				{
+					id: "6EFA6DCCE473774B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "178D7E78EE3D3B1D"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "13BB16167E729202"
+				item: { count: 1, id: "neovitae:hellfire_forge" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "04737DA4212E7727"
+			rewards: [
+				{
+					id: "2BF46E0322F7846B"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "16AEAA6B2F5DA498"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "53667B89920537C5"
+				item: { count: 1, id: "neovitae:blood_orb_apprentice" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "22F1EC1505DF13C2"
+			optional: true
+			rewards: [
+				{
+					id: "328D379F9C600E55"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "6BD94BBF860CAC83"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "067952F3CD2DD4E9"
+				item: { count: 1, id: "neovitae:incense_altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22F1EC1505DF13C2"]
+			id: "0D3411B1150525A3"
+			rewards: [
+				{
+					id: "1A5BCF6727163CC9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "4D4E04C0ABC20155"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "49D6A36B51E42046"
+				item: { count: 1, id: "neovitae:athanor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D3411B1150525A3"]
+			id: "1F02DBD7FF2AC72C"
+			rewards: [
+				{
+					id: "18B3ED22CDDDF96A"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "65CF1D778D5D8168"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "214E9943F8B7DBA6"
+				item: { count: 1, id: "neovitae:blood_tank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F02DBD7FF2AC72C"]
+			id: "25F6729C17D38333"
+			rewards: [
+				{
+					id: "7854AE3172E216F7"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "03184C0D021F1491"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6A808283AA0368EA"
+				item: { count: 1, id: "neovitae:master_ritual_stone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25F6729C17D38333"]
+			id: "7E5AFD6CED5745B3"
+			optional: true
+			rewards: [
+				{
+					id: "35D321AE1A9D43F4"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "017802EDA16ABE01"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "125C42E9725B9F44"
+				item: { count: 1, id: "neovitae:blood_orb_archmage" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E5AFD6CED5745B3"]
+			id: "5955095494BBA2E7"
+			optional: true
+			rewards: [
+				{
+					id: "3295407212EC1893"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "49E92425C0BFE955"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5677E36B5836AE28"
+				item: { count: 1, id: "neovitae:blood_orb_magician" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5955095494BBA2E7"]
+			id: "0FD01AB412B14E99"
+			optional: true
+			rewards: [
+				{
+					id: "450FD0ED13BE7288"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4E7265319A68A3E0"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "57DD61EC83E1BE2B"
+				item: { count: 1, id: "neovitae:blood_orb_master" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FD01AB412B14E99"]
+			id: "4EFB38841662962F"
+			optional: true
+			rewards: [
+				{
+					id: "201DC7605DDC65D6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5C8B750B2B20F451"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5834CB13B42A253A"
+				item: { count: 1, id: "neovitae:ritual_stone" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EFB38841662962F"]
+			id: "254763EFF9C9F2E7"
+			optional: true
+			rewards: [
+				{
+					id: "123B2643863C545A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "360000378E6E2BE8"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "72FCBD148974D34F"
+				item: { count: 1, id: "neovitae:activation_crystal_weak" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+	]
+}

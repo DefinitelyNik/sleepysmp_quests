@@ -1,0 +1,441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "33_cataclysm"
+	group: "7F1B806CF6007B74"
+	id: "0D877793B85DDE7D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "62B245107EA6E89E"
+			rewards: [{
+				id: "04CB55608D7C1BC3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "21B61210D06BF886"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "6571A9C799EC64F2"
+			optional: true
+			rewards: [
+				{
+					id: "5D020FD4E9FC90C3"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "044BA847B522EEAF"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "2527B8E482A770E2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "7A59F21A254D43F5"
+			optional: true
+			rewards: [
+				{
+					id: "23E7E476C51E509D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6040C89A9AB7CD76"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "03787A85593E1AEE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "410980186E669454"
+			optional: true
+			rewards: [
+				{
+					id: "209A5D5B1B0CBAB1"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "386B574551CA6374"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "715E57E57261B9FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "58AC07264357FB69"
+			optional: true
+			rewards: [
+				{
+					id: "65B69115C5E4DB01"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "411128FEC2C2ACF7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "776AEA69AFD14C3F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "1E9F94D439D01C8C"
+			optional: true
+			rewards: [
+				{
+					id: "1542EF867599D1DA"
+					type: "xp"
+					xp: 225
+				}
+				{
+					count: 2
+					id: "7F1391099A1BCA24"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "44707F3AAD662407"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "6D0CBED06D12258A"
+			optional: true
+			rewards: [
+				{
+					id: "56A03E7CA062E9AB"
+					type: "xp"
+					xp: 225
+				}
+				{
+					count: 2
+					id: "4B94727E20013FC5"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "18B11B4E547084F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "596341FBBCE86CB0"
+			optional: true
+			rewards: [
+				{
+					id: "786989B2AD851131"
+					type: "xp"
+					xp: 225
+				}
+				{
+					count: 2
+					id: "0BBDC34950E1487B"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "43C8A993577AA3C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "6F692794D90BDB9D"
+			optional: true
+			rewards: [
+				{
+					id: "122C259042BF3154"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "364D1C092B70DEE4"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "60D8CD469437EE56"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "73E9FF5B6AAA2A3B"
+			optional: true
+			rewards: [
+				{
+					id: "64B05F2ED13733EC"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "10A05DE279DC9434"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "14B5AF1D2D271D56"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "40F10D2C603D44A4"
+			optional: true
+			rewards: [
+				{
+					id: "247BBBF337E0047F"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "5FA9A1DCFE06C682"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				id: "0E146ADDCA9A3AD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "6B2D81567F21D426"
+			optional: true
+			rewards: [
+				{
+					id: "4EA1D98D8CE290F5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "28FE1B096DEA4F8D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "03AD78456D417004"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "1D7A0CF2867C65BC"
+			rewards: [
+				{
+					id: "1782FF269A9D3DBA"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 8
+					id: "56A23E26EE1C23E7"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4BBB96B328A4337C"
+				item: { count: 1, id: "cataclysm:koboleton_spawn_egg" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "4B5A153CB203DF57"
+			rewards: [
+				{
+					id: "4C3D47DEAB8D3B4C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 8
+					id: "669F687B2152BEDD"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "05CA031C3A9BF9F8"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "305624C8A39F5747"
+			rewards: [{
+				id: "1BB9A064FFFA4A13"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4FC22FA24760FC0B"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62B245107EA6E89E"]
+			id: "2F51C10B435B583C"
+			optional: true
+			rewards: [{
+				id: "7353FC5F7835C710"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4A9E6FD24BD6A438"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+}

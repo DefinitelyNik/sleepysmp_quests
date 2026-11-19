@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "40_bestiary"
+	group: "7F1B806CF6007B74"
+	id: "3B091CD0C7D71DE7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5615ED4B8322F612"
+			rewards: [{
+				id: "2E573E2747079597"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5D45122B801CCED6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "19CABEBF28B07BFA"
+			optional: true
+			rewards: [{
+				id: "49A70A9DD66A2E75"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos:lord_pumpkinhead"
+				id: "656A0A0882674BA3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "391BC2D6AB9EE57B"
+			optional: true
+			rewards: [{
+				id: "68C7F7E533B90909"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos:mother_spider"
+				id: "01256EFE8E94AA39"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "44BF325581E5AA13"
+			optional: true
+			rewards: [{
+				id: "571F8C5A96495562"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos:nightmare_stalker"
+				id: "0F676D12B8C38E70"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "0A5CDDB1C4B37C73"
+			optional: true
+			rewards: [{
+				id: "64031A61411B6441"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos:lifestealer"
+				id: "41991D91F2898023"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "13B123C20D027935"
+			optional: true
+			rewards: [{
+				id: "2B4BC8A7421C5578"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "grimoireofgaia:minotaur"
+				id: "1ED2CDD62D8289BC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "0FEC40E7646D7042"
+			optional: true
+			rewards: [{
+				id: "50C783E9E1DFAFA7"
+				type: "xp"
+				xp: 35
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "grimoireofgaia:harpy"
+				id: "6F1F9025D5662E08"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "7561B1FBAC3EE086"
+			optional: true
+			rewards: [{
+				id: "6CF1CAC685320A01"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "grimoireofgaia:oni"
+				id: "03FC705C71BFAFC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "779E5F9207102840"
+			optional: true
+			rewards: [{
+				id: "5F94EDE8D5EE09D3"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "grimoireofgaia:yuki_onna"
+				id: "137F143C109CDCCE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "3D5A3754FBDDCB1D"
+			optional: true
+			rewards: [{
+				id: "18A3598FE79B5577"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "dangerous_mobs:necro_knight"
+				id: "01B59933F64DB16E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "244B445D14D8D7C3"
+			optional: true
+			rewards: [{
+				id: "3FEFC780D8A51028"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "dangerous_mobs:necro_mage"
+				id: "56846BC9A363A9A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "675BB9AC246B30DD"
+			optional: true
+			rewards: [{
+				id: "1ECAF9C070ED82E5"
+				type: "xp"
+				xp: 45
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "dangerous_mobs:living_armour"
+				id: "48DB7C0E0A06FDA0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "22764EC356885A90"
+			optional: true
+			rewards: [{
+				id: "3623AC9641EAD4B8"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "dangerous_mobs:puppeteer"
+				id: "3FBD9D18F6C699FF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "6CF9F29E120E5015"
+			optional: true
+			rewards: [{
+				id: "00C2ABB24FE870E8"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "creeperoverhaul:jungle_creeper"
+				id: "0E7FD33B0FC427F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "76C84FC450D4087F"
+			optional: true
+			rewards: [{
+				id: "17546B4249EEE0F3"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "endermanoverhaul:snowy_enderman"
+				id: "32B7DB03EF28C7E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "648E0B521149F25A"
+			optional: true
+			rewards: [{
+				id: "4D9B6E7664BAF1C3"
+				type: "xp"
+				xp: 35
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "realmrpg_skeletons:duelist_skeleton"
+				id: "204EE886378F68D4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5615ED4B8322F612"]
+			id: "45F880CCC9D54B88"
+			optional: true
+			rewards: [{
+				id: "1C05773E8770E4E8"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "luminousworld:hermit_king"
+				id: "53E9B118406ABECD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.75d
+			y: 0.0d
+		}
+	]
+}

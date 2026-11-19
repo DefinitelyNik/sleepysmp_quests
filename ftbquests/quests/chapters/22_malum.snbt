@@ -1,0 +1,497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "22_malum"
+	group: "01E2E4898BB48984"
+	id: "4814FD61127FF52A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5D59B7414A7D45D6"
+			rewards: [
+				{
+					id: "0CF655554E9ADA41"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5661C5C86BBED963"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2044720937F245CB"
+				item: { count: 1, id: "malum:encyclopedia_arcana" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D59B7414A7D45D6"]
+			id: "01C8256B06DCB5D8"
+			rewards: [
+				{
+					id: "1E150762A920E948"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E5C498092ADFDD2"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "19259146EF44F0A8"
+				item: { count: 1, id: "malum:runewood_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "44F82FA53C1B3D6C"
+			rewards: [
+				{
+					id: "5364A15BA2EAF454"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "38C2418F183B41E4"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "521F4382D29B50FA"
+				item: { count: 1, id: "malum:soulwood_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44F82FA53C1B3D6C"]
+			id: "693EC78353CC78EA"
+			rewards: [
+				{
+					id: "4CCDC9B9BC3856BD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2C40BB2B7F85ADB5"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "535D086BC0DD02FF"
+				item: { count: 1, id: "malum:arcane_spirit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "3DB27833E994518D"
+			rewards: [
+				{
+					id: "2C3000B33A9AC2CB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "429A061B0EB937D0"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1DD6E9821291262E"
+				item: { count: 1, id: "malum:aerial_spirit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3DB27833E994518D"]
+			id: "7F9039F4D02C9331"
+			rewards: [
+				{
+					id: "381A05E75CD560E4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "56FD24C1D405E6F3"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "73921F6A7B92C48E"
+				item: { count: 1, id: "malum:earthen_spirit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F9039F4D02C9331"]
+			id: "4BD8173896D8B433"
+			rewards: [
+				{
+					id: "756424304BD5A7D5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6024286DD5C8B535"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "21BF7305B2897B99"
+				item: { count: 1, id: "malum:aqueous_spirit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "0B8400A0DEB91438"
+			rewards: [
+				{
+					id: "3C060AA49D016468"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0848D05D62592C11"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "38ECA78C4646EB19"
+				item: { count: 1, id: "malum:infernal_spirit" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "63933CD08D181423"
+			rewards: [
+				{
+					id: "3C5B48764FBC96BA"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "313F86B7FA26D379"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0B09D64B899F09A5"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63933CD08D181423"]
+			id: "157F0A14D496DF94"
+			rewards: [
+				{
+					id: "3FCD7A00EF8EC7CB"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "4F6AF97E9F4CB9E1"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "64D43FD488F2A23E"
+				item: { count: 1, id: "malum:spirit_crucible" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["157F0A14D496DF94"]
+			id: "6A803BA3181786FE"
+			rewards: [
+				{
+					id: "538B489C3B47FE58"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "513C8B7BFAB739F1"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2DBFCDCD1D0E7FF3"
+				item: { count: 1, id: "malum:hallowed_gold_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A803BA3181786FE"]
+			id: "345D4432D3D43692"
+			rewards: [
+				{
+					id: "1AD67E5C18FB9B84"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "68E2AA383DCC1B87"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "46EB1F010EF19CAF"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["345D4432D3D43692"]
+			id: "77C5953DD5F17CD9"
+			optional: true
+			rewards: [
+				{
+					id: "657A14C220639E60"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "0F7B5A2709B8895D"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "660E93D26576D924"
+				item: { count: 1, id: "malum:soulwoven_pouch" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "458338B44D437E47"
+			optional: true
+			rewards: [
+				{
+					id: "29A26812DBA66268"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "3ED28A4FF41094B1"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1800B2D86C176065"
+				item: { count: 1, id: "malum:runewood_totem_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["458338B44D437E47"]
+			id: "131E043C6D8C57ED"
+			optional: true
+			rewards: [
+				{
+					id: "70FCB3F81D918763"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "483AA879FFC1D144"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "496C089C6BB44B5A"
+				item: { count: 1, id: "malum:sacred_spirit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["131E043C6D8C57ED"]
+			id: "1D180EF7D52202D0"
+			optional: true
+			rewards: [
+				{
+					id: "62708E529530DA9E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "23E2BEFD765E2D7B"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "79B45215F9314CA9"
+				item: { count: 1, id: "malum:wicked_spirit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "6D99C6E15D603537"
+			optional: true
+			rewards: [
+				{
+					id: "3722B960DC3A4437"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "57FA95A77E34F3D7"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4066BE54966C8581"
+				item: { count: 1, id: "malum:eldritch_spirit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6D99C6E15D603537"]
+			id: "29413A16CE091C6D"
+			optional: true
+			rewards: [
+				{
+					id: "71FCD9B7A17A380F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "24BC53BE8177EA69"
+					item: {
+						count: 1
+						id: "malum:arcane_spirit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1AE1096CD6F01B26"
+				item: { count: 1, id: "malum:totemic_staff" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+	]
+}

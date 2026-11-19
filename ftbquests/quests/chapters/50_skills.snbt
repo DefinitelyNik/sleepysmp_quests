@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "50_skills"
+	group: "5F8411EAC72FE724"
+	id: "22E95F6A18C5D4B5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "35F241517AEC3E65"
+			rewards: [{
+				id: "6B4D649FA6A8C008"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7D590DACA63A8025"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35F241517AEC3E65"]
+			id: "0AF94033B9D8DD97"
+			rewards: [{
+				id: "60A9846B13FAEDD2"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "312FFFFCAA40A9C8"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6954E29CBE806CD5"
+			rewards: [{
+				id: "79ABBB51AA26294A"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "27D0E9DF5ADBEE92"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1389462E8A9EB8B7"
+			rewards: [{
+				id: "09D4D52F76E62D99"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "28CE94414C245DB2"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "7208450547FEB497"
+			rewards: [{
+				id: "6176E7F0D4DC688C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "33D73BD4BE2A5874"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7208450547FEB497"]
+			id: "1D834847D15E106E"
+			rewards: [{
+				id: "14F576213D14CF51"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "290A8DE707955FF8"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D834847D15E106E"]
+			id: "16C57DF89884955C"
+			rewards: [{
+				id: "4252EC081C754B3D"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3BB083DEC6B7A82C"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "388B499F95AB17D7"
+			rewards: [{
+				id: "161D22068A1E4215"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "16761FE1B29895DF"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "4A73D11E9B5577BD"
+			rewards: [{
+				id: "415973085EE29C8E"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1B4B6E3B7941026B"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "3495FA772DA40446"
+			rewards: [
+				{
+					id: "07A368E06816D7DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "459C607B6A3AE656"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0B0FADE9687BB1C6"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

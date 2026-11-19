@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "02_relics"
+	group: "5F8411EAC72FE724"
+	id: "1668CB3A275D1F8D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "757565F3D4789E0F"
+			rewards: [
+				{
+					id: "1ACB51D3131071EA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "23462308C1BF0EB7"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "65A4A80646284F78"
+				item: { components: { "relics:data": { abilities: { abilities: { jump: { lock: { breaks: 5 }, points: 0, stats: { count: { initialQuality: 7 }, slow_fall_duration: { initialQuality: 9 }, updraft_bonus: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: 0.0d
+		}
+		{
+			id: "7959031708CF352E"
+			rewards: [
+				{
+					id: "33FD64466BAA7C71"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "074A22A36A1087F4"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "12E1BCEEC4C34DEE"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "098B3F66D13CB0EF"
+			rewards: [
+				{
+					id: "3C002BD3063FC769"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "191AC9E080129913"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "12E40DC657195D4D"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["098B3F66D13CB0EF"]
+			id: "58E80F4589390BA7"
+			optional: true
+			rewards: [
+				{
+					id: "539B488A342654E1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6A794EE22D4E8058"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0E2C044B0EB473E1"
+				item: { components: { "relics:data": { abilities: { abilities: { glider: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 10 }, fall_speed: { initialQuality: 5 }, strength: { initialQuality: 10 }, vanishing_duration: { initialQuality: 1 } } }, shield: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 7 }, hits: { initialQuality: 6 }, repel_distance: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:umbrella" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			id: "3CDA6FE4A2E7809F"
+			optional: true
+			rewards: [
+				{
+					id: "44AAFF2E397DDDF8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "240E6335EB2A88AE"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "23684E07C38FCC6E"
+				item: { components: { "relics:data": { abilities: { abilities: { runner: { lock: { breaks: 5 }, points: 0, stats: { jump_charge_bonus: { initialQuality: 2 }, max_speed_bonus: { initialQuality: 4 }, max_step_bonus: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "6104E26C243E611C"
+			optional: true
+			rewards: [
+				{
+					id: "46F297C556C97FFD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1132E23605A4735D"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "65FDC9444185CAC6"
+				item: { components: { "relics:data": { abilities: { abilities: { power: { lock: { breaks: 5 }, points: 0, stats: { armor_ignore: { initialQuality: 7 }, hits_required: { initialQuality: 6 }, power_damage_bonus: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6104E26C243E611C"]
+			id: "555D6036CB048F58"
+			optional: true
+			rewards: [
+				{
+					id: "4F8666723D5AF81E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "017D3CE32369D66A"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0A24184D60CBA91A"
+				item: { components: { "relics:data": { abilities: { abilities: { gliding: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 7 }, efficiency: { initialQuality: 4 }, resistance: { } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:kinetic_belt" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "19A037BC3F092167"
+			optional: true
+			rewards: [
+				{
+					id: "0BA8B8E53DA60F55"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1301E5BE5C13DE91"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "24ADF95BC49E298B"
+				item: { components: { "relics:data": { abilities: { abilities: { bounce: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 3 }, damage_modifier: { initialQuality: 10 }, power: { initialQuality: 2 }, radius: { initialQuality: 6 }, stun: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:springy_boot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19A037BC3F092167"]
+			id: "0238DE16250EFCFD"
+			optional: true
+			rewards: [
+				{
+					id: "6AB2E1B9529DECB0"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "459E8D03E829DC16"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6007A12A4FE6E3EA"
+				item: { components: { "relics:data": { abilities: { abilities: { pack: { lock: { breaks: 5 }, points: 0, stats: { damage_modifier: { initialQuality: 2 }, pet_radius: { initialQuality: 4 }, resistance_per_pet: { }, revival_cost: { initialQuality: 5 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:hunting_belt" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0238DE16250EFCFD"]
+			id: "0B9DDEB98CAFE4D9"
+			optional: true
+			rewards: [
+				{
+					id: "7313F04C0AFF2387"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4CBE60E73EE9D1A3"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "11991F9B9EFD73FB"
+				item: { components: { "relics:data": { abilities: { abilities: { warp: { lock: { breaks: 5 }, points: 0, stats: { blind_duration: { initialQuality: 5 }, blind_radius: { initialQuality: 6 }, cooldown: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:warp_drive" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "548099973A35B54C"
+			optional: true
+			rewards: [
+				{
+					id: "382F552A8193BB40"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0319DBAFB1816175"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1B97B4DE5629DBD1"
+				item: { components: { "relics:data": { abilities: { abilities: { vampire: { lock: { breaks: 5 }, points: 0, stats: { kill_heal: { initialQuality: 10 }, lifesteal: { initialQuality: 3 }, max_streak_bonuses: { initialQuality: 8 }, overheal_absorption_cap: { initialQuality: 2 }, streak_heal_bonus: { initialQuality: 3 }, streak_window: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:vampiric_glove" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "3619B98EF74F4455"
+			rewards: [
+				{
+					id: "1DB3ADE4E7351D16"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "350D45548B1B1F45"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3B33F69BDB72331A"
+				item: { count: 1, id: "minecraft:item_frame" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+}

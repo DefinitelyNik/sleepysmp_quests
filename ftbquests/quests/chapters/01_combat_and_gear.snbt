@@ -1,0 +1,528 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "01_combat_and_gear"
+	group: ""
+	id: "4596DD90ABE995A2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56FD5F8EF17B0E0F"
+			rewards: [
+				{
+					id: "03FEE112FB91EBA9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "0034BA8F971C86D9"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5775B9366B1F538B"
+				item: { count: 1, id: "minecraft:wooden_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1B3F445F568ED28E"
+			rewards: [
+				{
+					id: "63DACF68ACD00475"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3E4F6762E482A3F1"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "388DEBE5DD9EA044"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "6916D9AF94999E59"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					id: "03C785B571798A11"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					id: "370D69DC88651A6A"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3F445F568ED28E"]
+			id: "1ABD9AB1FDA4A872"
+			rewards: [
+				{
+					id: "2F1B0582A61619A1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "738C932B4418420A"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "366BFA2973D12495"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ABD9AB1FDA4A872"]
+			id: "2BA7BCEE3389213A"
+			rewards: [
+				{
+					id: "47AF32EA3F04DD5D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3C81D37E4CB13DC2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "24F2B681E93669B2"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "40E0B89E915222E8"
+			rewards: [
+				{
+					id: "2E67EDF311157F3C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "3CAD0C9BBC60B3FE"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "70E45E4D6B5D1213"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1966AD12D413E530"
+			optional: true
+			rewards: [
+				{
+					id: "55E09BE6791E2C0A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "441F39F08D61CF28"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "547193E41B51014F"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "6BB7CE2F1E06C4DD"
+			optional: true
+			rewards: [
+				{
+					id: "39C8304E1EBC8639"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "231A13AEDE379F55"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "645224BE40345939"
+				item: { count: 1, id: "advancednetherite:netherite_iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "4CA30312E15F7417"
+			optional: true
+			rewards: [
+				{
+					id: "5A6F2811AEC3F8F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "578E4CD5D910FD91"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6D99EF6E35145920"
+				item: { count: 1, id: "advancednetherite:netherite_diamond_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CA30312E15F7417"]
+			id: "0DDEB2FF9F099CD0"
+			rewards: [
+				{
+					id: "4A109895BF1CE0C6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "2991E81F321637B3"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1A11F24BAD589967"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "12906C878EF31B1E"
+			rewards: [
+				{
+					id: "5404EA8246A4E41C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "56556FE58B358C3A"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4602B33D7998416C"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12906C878EF31B1E"]
+			id: "4A5AF6611F2611A4"
+			optional: true
+			rewards: [
+				{
+					id: "0AADE128D8733B92"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 16
+					id: "7910D3FFD25F89FF"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "35880996BE114918"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A5AF6611F2611A4"]
+			id: "5E6AD2BBF5889E5C"
+			rewards: [
+				{
+					id: "4EC84719BBA51B60"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "7EC31CA4D8329B93"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2AD03CF075215071"
+				item: { count: 1, id: "farmersdelight:cooked_rice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E6AD2BBF5889E5C"]
+			id: "1DC6FE67D969BDC2"
+			rewards: [
+				{
+					id: "336CBF23EB6886AF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "0B9A400BC2FB0606"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "44EEFA17F84156A3"
+				item: { count: 1, id: "gravestone:gravestone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "46573D90AD9EB3F2"
+			rewards: [
+				{
+					id: "046F9171DE7C8860"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "606BF0B7B8F0F0DB"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3CD8A0CD3DF61361"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46573D90AD9EB3F2"]
+			id: "64E9EB5FFA330C4B"
+			optional: true
+			rewards: [
+				{
+					id: "35670EBB48CDAAED"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "320FC71D6EFB2B86"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "552F11CF8C5A080D"
+				item: { count: 1, id: "minecraft:brewing_stand" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "49BF36F52858F7D3"
+			optional: true
+			rewards: [
+				{
+					id: "7B87C64A26712F7A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "0E9B47FD6953D364"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1647EF18AACEE8AC"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "56BC5F74C2FB9F59"
+			optional: true
+			rewards: [
+				{
+					id: "096763AB6FA8C073"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "08486CFB013BDD4E"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "59A0F0CE9BA0EAD3"
+				item: { count: 1, id: "minecraft:composter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56BC5F74C2FB9F59"]
+			id: "7CEF6A95EA79961D"
+			optional: true
+			rewards: [
+				{
+					id: "6103D4794518D1F8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "6A9949FBFA172627"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "02548807821A7590"
+				item: { count: 1, id: "minecraft:lead" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+}

@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "35_alexs_mobs"
+	group: "62488ED1F07C9AC2"
+	id: "25E5408071FD2093"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2976A3A4D3FB2D0D"
+			rewards: [
+				{
+					id: "0C2CB6304175FE75"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3036E417B28EDCB9"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "63D4061402E9F1DB"
+				item: { count: 1, id: "alexsmobs:animal_dictionary" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "36EF04FD90CD4D93"
+			rewards: [
+				{
+					id: "1FEAB1621520E336"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1DF19220A513405B"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4109916330E5AF3F"
+				item: { count: 1, id: "alexsmobs:crocodile_scute" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "18B2FDBDA666BCAD"
+			rewards: [
+				{
+					id: "4932C2447EC73C8A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4946E9A62B8713CD"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1EA2675AAA2D0520"
+				item: { count: 1, id: "alexsmobs:moose_antler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B2FDBDA666BCAD"]
+			id: "0EAD71B6ABAD3185"
+			rewards: [
+				{
+					id: "65DA750C80306A90"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1598003A117CDF53"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7525CDD68330C9C8"
+				item: { count: 1, id: "alexsmobs:raccoon_tail" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EAD71B6ABAD3185"]
+			id: "566F9094CE3F6D19"
+			rewards: [
+				{
+					id: "11E7B98509A2BB83"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "30A5F020B3F62F73"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "09EBC3DEAB13ED60"
+				item: { count: 1, id: "alexsmobs:roadrunner_feather" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "00C33F5D55E06825"
+			rewards: [
+				{
+					id: "063301EFFD6578B6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "11D30C9EFF73FCBC"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3DF6ED4FE0BDCDC9"
+				item: { count: 1, id: "alexsmobs:emu_feather" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "5679B55C52E1334C"
+			rewards: [
+				{
+					id: "01F7FCCE9F755CDE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "214B961AE0AF5B45"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "212135E072127201"
+				item: { count: 1, id: "alexsmobs:gazelle_horn" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5679B55C52E1334C"]
+			id: "358E7855E9EDBCFF"
+			rewards: [
+				{
+					id: "0CCF65A9CF0F9C16"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "1DAE2D9B90E83689"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2B88401C294489C7"
+				item: { count: 1, id: "alexsmobs:shark_tooth" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "720DA68F55D175EA"
+			rewards: [
+				{
+					id: "50BCAC90E97A02BB"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "5C455F9402401FC0"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "224046B1408DF2A5"
+				item: { count: 1, id: "alexsmobs:warped_muscle" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "475E6D60F48E2B05"
+			rewards: [
+				{
+					id: "1ED975AE48F0D9A7"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "5902B2666DD00898"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3F675719265228A6"
+				item: { count: 1, id: "alexsmobs:hemolymph_sac" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["475E6D60F48E2B05"]
+			id: "53BE1175E5709DD7"
+			optional: true
+			rewards: [
+				{
+					id: "5033D4CC61AF80C9"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "58CB76349943AA04"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "642E9906878B21B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53BE1175E5709DD7"]
+			id: "17E7D455F970C616"
+			optional: true
+			rewards: [
+				{
+					id: "40925626386C56A4"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "41ADAF5A87E41145"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "69FAA293455693E9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.25d
+			y: 3.0d
+		}
+	]
+}

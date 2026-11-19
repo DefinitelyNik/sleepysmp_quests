@@ -1,0 +1,592 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "13_modern_industrialization"
+	group: ""
+	id: "6C53487FCF20F2DD"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A37039B0603337C"
+			rewards: [
+				{
+					id: "0BE8C715225FCB55"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "417C1CC35A6973EC"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "07E08C8D2E754E3F"
+				item: { count: 1, id: "modern_industrialization:guidebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0EF5398DD3EB64EE"
+			rewards: [
+				{
+					id: "443BC1BA249E2B48"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "77A99BB1C148F612"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7724885837FF1B92"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "4671FE227D87BE8A"
+			rewards: [
+				{
+					id: "6FE083174CC2D8AA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "5994DB23AE33C417"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5E19C80308BCC6E6"
+				item: { count: 1, id: "modern_industrialization:iron_hammer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4671FE227D87BE8A"]
+			id: "12F3A24D7FBE64DF"
+			rewards: [
+				{
+					id: "650AB6EF399DEF46"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "62329D0D4D881304"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "085CD0EE27FB0150"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12F3A24D7FBE64DF"]
+			id: "4CB34751CDC83BA1"
+			rewards: [
+				{
+					id: "1636AF67F977A07C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "59B3E398A178687C"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2F159E8BD077D464"
+				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "45A93533E0797976"
+			rewards: [
+				{
+					id: "13C650AC2953115D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "5DA24E1DE8069B76"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "49E59238A2B3AF03"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "2CF7AFDDED42247E"
+			rewards: [
+				{
+					id: "3FC33D13FAC422D7"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "15C13041619725A2"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0BB74A3E5F4FA761"
+				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "20B3A7AC267D90A1"
+			rewards: [
+				{
+					id: "2E9BBE685524E5C6"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "45C21D8161D55CB2"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "005ECE3A38C0A6F8"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "407054E6DB3E0055"
+			rewards: [
+				{
+					id: "068A93CE8065426B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "16774137CB956ADB"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "324C52BD9C88C4BF"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["407054E6DB3E0055"]
+			id: "376F350F9E8372FB"
+			rewards: [
+				{
+					id: "6B9FC2926D610B87"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "6C54A41D8C063595"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "08CA9A115772ACC1"
+				item: { count: 1, id: "modern_industrialization:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "380C338C9F545D41"
+			rewards: [
+				{
+					id: "3640FC1FCFC2197F"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "57E0FC15A67A48F9"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "70960CE8C430D0C5"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "2BD5B668CC97A76B"
+			rewards: [
+				{
+					id: "28388649E2965C22"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "465EB87592B6E659"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6E78A5601017DC14"
+				item: { count: 1, id: "modern_industrialization:electric_furnace" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "434339938EC4528D"
+			rewards: [
+				{
+					id: "793A7D27A33F2146"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "7E292CBD8E7BE72B"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4281DEACEDAE813D"
+				item: { count: 1, id: "modern_industrialization:electric_macerator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["434339938EC4528D"]
+			id: "6A08A813D22F7650"
+			rewards: [
+				{
+					id: "652184AC39916737"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "7584877572ED24BF"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "603FA6D74238C774"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A08A813D22F7650"]
+			id: "14681DE6D699D5DC"
+			optional: true
+			rewards: [
+				{
+					id: "036962DF26A4937C"
+					type: "xp"
+					xp: 85
+				}
+				{
+					count: 2
+					id: "38DD2E06935BD3A5"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "228A4CB8F616D057"
+				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "35D3E65AF2876EF0"
+			optional: true
+			rewards: [
+				{
+					id: "2016B82C50FF88DD"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "232613D258CA0111"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1E04111DF45456BE"
+				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "5C928627F7112FAF"
+			optional: true
+			rewards: [
+				{
+					id: "0D18FB878166C4A9"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "1FF5802EEBA7FA50"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2C9D1F6B69D7C591"
+				item: { count: 1, id: "extended_industrialization:electric_alloy_smelter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C928627F7112FAF"]
+			id: "60A33910766CEC5F"
+			optional: true
+			rewards: [
+				{
+					id: "23D2974B170204A6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "7002942E46257893"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3794C88E61D8A1DC"
+				item: { count: 1, id: "modern_industrialization:lv_mv_transformer" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "6B2FD24C88B96F0D"
+			optional: true
+			rewards: [
+				{
+					id: "580DBE8CF19BF178"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "72652295E49CB3D0"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5E1446B9B7CACA89"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "3BE20854AD7EBE79"
+			optional: true
+			rewards: [
+				{
+					id: "30663718DFFA4CC0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "167C1CE549E91FC9"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "403C8201451F00D7"
+				item: { count: 1, id: "modern_industrialization:steam_quarry" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "2A6751794CD66468"
+			optional: true
+			rewards: [
+				{
+					id: "0BB0D2287B080B98"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "39C08C42B1F9B33A"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "413B3B2F19EB40CE"
+				item: { count: 1, id: "modern_industrialization:electric_quarry" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+}

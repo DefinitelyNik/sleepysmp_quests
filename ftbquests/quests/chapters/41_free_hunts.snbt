@@ -1,0 +1,582 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "41_free_hunts"
+	group: "7F1B806CF6007B74"
+	id: "4C1F77641658DFD0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3CAE08FF302F546F"
+			rewards: [{
+				id: "5B104AE85F135B2C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6A2E74D1834A3CDC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "217C30F2B73BE6C6"
+			optional: true
+			rewards: [
+				{
+					id: "517E3447FB6B06C4"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "0DF5B491A341C543"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "35F03951A40B761F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "38ECDAE66BC47BC7"
+			optional: true
+			rewards: [
+				{
+					id: "50A5814463E761E0"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "7BE9A8E557CC4154"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "3FB56081B02CAFB6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "0C20A6B7C41D00F7"
+			optional: true
+			rewards: [
+				{
+					id: "109470B3BE7BF7A8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "11CAAC7AE9971AA4"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "43F5BCBB8C6A0633"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "6F7C79EE2EBD792E"
+			optional: true
+			rewards: [
+				{
+					id: "34D3FE081CBF84D6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3F6F1D330C3A282C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "7CFB670ABD5715CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "73897FAB9F85CA41"
+			optional: true
+			rewards: [
+				{
+					id: "144F057B78CE9A2C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7CEE6A2120B6D796"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "5DEA2C9938A5FD1A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "4C9CCA1ED7CF5DB6"
+			optional: true
+			rewards: [
+				{
+					id: "39AE5ADC102E9C51"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "65DFA2B101098597"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "243134AC566C3663"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "45CAC7607E6BC040"
+			optional: true
+			rewards: [
+				{
+					id: "13315B3C50CFC998"
+					type: "xp"
+					xp: 175
+				}
+				{
+					count: 2
+					id: "40FAAB9D002E83B7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "261682A778572C02"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "75DC23D0EA7D085C"
+			optional: true
+			rewards: [
+				{
+					id: "178A2E10001DC72A"
+					type: "xp"
+					xp: 175
+				}
+				{
+					count: 2
+					id: "2C12574F32C7758E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "4FB2F37182009118"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "41BF24D43B5CC8F4"
+			optional: true
+			rewards: [
+				{
+					id: "792F5FB0AE9149FA"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "64FC8781D9666802"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				id: "2B14D880C837CB20"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "64A9DD2C1DD025F9"
+			optional: true
+			rewards: [
+				{
+					id: "2B787E52FAB2F5AF"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "2A4A95A9E4BA5E51"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:kraken"
+				id: "2466E84D385E9632"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "0D3B082783AA43AA"
+			optional: true
+			rewards: [
+				{
+					id: "297DB982EDCF242B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "703BB9268F149FA5"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				id: "215D6B890D9111D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "1C29E760F88D8A21"
+			optional: true
+			rewards: [
+				{
+					id: "60E69772EF796708"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "40755199607A4A3D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				id: "50B62C954AD15AC2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "570908EFF21891A4"
+			optional: true
+			rewards: [
+				{
+					id: "68562605B73FD999"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "08A027A687FB1140"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				id: "07C74437AD5F4EA5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "5971BE1171DE953E"
+			optional: true
+			rewards: [
+				{
+					id: "7BF155B3DAC0CCB7"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5890B6199DF39ABD"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:pirate_captain"
+				id: "04B9ECB31DDD8A16"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "58533F10677D884B"
+			optional: true
+			rewards: [
+				{
+					id: "713B7F6E06D89F9F"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "0063F7FA8DC94990"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:soul_knight_wither_skeleton"
+				id: "4160F5BCBBE12AED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "1433A5DE0DDC4343"
+			optional: true
+			rewards: [
+				{
+					id: "7639CCEE811E7C9C"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "5919B221327D69C8"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "block_factorys_bosses:pile_of_bones"
+				id: "1AD00F8F9C5FBA59"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "3AD262D9D9B1E8CB"
+			optional: true
+			rewards: [
+				{
+					id: "4E5E91924D1B1B4C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7EE2203BBFC18621"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "64CE29B0A00F26C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "659F12E71ACD7846"
+			optional: true
+			rewards: [
+				{
+					id: "02F3CA9314D2C699"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "7B8622694D35D24C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "darkdoppelganger:dark_doppelganger"
+				id: "523DA4FF84DAA5E6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CAE08FF302F546F"]
+			id: "13A95C3AD7FC69A7"
+			optional: true
+			rewards: [
+				{
+					id: "77AE3EC599A65E8E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "7D8C2855046659A4"
+					item: {
+						count: 1
+						id: "minecraft:item_frame"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5C9B92DE93F4F7AB"
+				item: { count: 1, id: "minecraft:armor_stand" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

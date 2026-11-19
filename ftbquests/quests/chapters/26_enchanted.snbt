@@ -1,0 +1,441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "26_enchanted"
+	group: "01E2E4898BB48984"
+	id: "6BBA7F4DC20F11F1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "66761C78FD3C36B0"
+			rewards: [
+				{
+					id: "3D09A20163DA33FB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E506FB12F61F3F5"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "268BCB33FF822419"
+				item: { count: 1, id: "enchanted:arthana" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "789B5BA584CC67F9"
+			rewards: [
+				{
+					id: "5026594073E9FFF1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7EC1321A9F243E3C"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5425B976CD4C4838"
+				item: { count: 1, id: "enchanted:belladonna_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["789B5BA584CC67F9"]
+			id: "3278065E2871BADF"
+			rewards: [
+				{
+					id: "6ACC7926E172B377"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3C93E685BBBA19D9"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1CC1E203B1A93901"
+				item: { count: 1, id: "enchanted:altar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5054940EBC04F8EF"
+			rewards: [
+				{
+					id: "2940DF1F04135F93"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5AFD523E53B0C3F7"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7E17DE8D10FC49CE"
+				item: { count: 1, id: "enchanted:witch_oven" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5054940EBC04F8EF"]
+			id: "15E1AF737502C666"
+			rewards: [
+				{
+					id: "56FE099251ACD51A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "4FA9ADB6F599FD72"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4B5809D815338BC9"
+				item: { count: 1, id: "enchanted:distillery" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15E1AF737502C666"]
+			id: "3F9D8D1B147E7B58"
+			rewards: [
+				{
+					id: "0EF769424081C05A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "698F59D3201E1C25"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "45D711F9A2B053E5"
+				item: { count: 1, id: "enchanted:kettle" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "308A1A6B2254C969"
+			rewards: [
+				{
+					id: "0A81E4EED7AB9FE5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4241128623D67749"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "003665A71C3776A3"
+				item: { count: 1, id: "enchanted:anointing_paste" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["308A1A6B2254C969"]
+			id: "7E3EFD13A740909D"
+			rewards: [
+				{
+					id: "4F2A2EDD5D45D71D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "2FDFB2B9FC719A7B"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "04AB44959A0D4B75"
+				item: { count: 1, id: "enchanted:attuned_stone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "5F041B7C8B2B7EA7"
+			rewards: [
+				{
+					id: "5EAE2CB0DEF45D70"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "2E1A9F9DB750627C"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4F0E052D46DC1E7D"
+				item: { count: 1, id: "enchanted:attuned_stone_charged" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "4C56E28B25126DC0"
+			optional: true
+			rewards: [
+				{
+					id: "3C0EFD61DA4B1948"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "3E0545B28A01AFD6"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "09BAD3689A436EAA"
+				item: { count: 1, id: "enchanted:armour_poppet" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "1F7C72BEF64F72E2"
+			optional: true
+			rewards: [
+				{
+					id: "320DF090A6BEEBC2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7EE575F52CDA63A1"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4DAD2BBD61B76264"
+				item: { count: 1, id: "enchanted:broom" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "1921FA853BE4F08C"
+			optional: true
+			rewards: [
+				{
+					id: "44CCF1E10C73F99F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "01214D06B9C93451"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0397EF40F388EBC9"
+				item: { count: 1, id: "enchanted:circle_talisman" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1921FA853BE4F08C"]
+			id: "6CBF9D53A68C364F"
+			optional: true
+			rewards: [
+				{
+					id: "7A9EA0D7B989DDD7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5CA5772851E3A60B"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "20AD1C3D828E8CB8"
+				item: { count: 1, id: "enchanted:bone_needle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6CBF9D53A68C364F"]
+			id: "4DB4642F87A01ADD"
+			optional: true
+			rewards: [
+				{
+					id: "000FCBA8A1C76B44"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "28949937E488383F"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "66BA4C957D4C826E"
+				item: { count: 1, id: "enchanted:chalice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "675F450014247509"
+			optional: true
+			rewards: [
+				{
+					id: "6F8E3A6F6A76051B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "245E0D51CC078FB8"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "10D14289A40B7BDB"
+				item: { count: 1, id: "enchanted:spinning_wheel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "6E81EC26B85EF867"
+			optional: true
+			rewards: [
+				{
+					id: "26ECA04239346654"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "53EE981CCE975F59"
+					item: {
+						count: 1
+						id: "enchanted:belladonna_seeds"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2667D0F80AE4222D"
+				item: { count: 1, id: "enchanted:breath_of_the_goddess" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

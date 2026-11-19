@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "39_deeper_darker"
+	group: "62488ED1F07C9AC2"
+	id: "2510926C3234E193"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "53CB9E32682621C2"
+			rewards: [
+				{
+					id: "0C057B93C51909CF"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "3A74C9A72D43727E"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6103A4D701601126"
+				item: { count: 1, id: "minecraft:sculk_shrieker" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2075165311AAB0FA"
+			optional: true
+			rewards: [
+				{
+					id: "68A7745788B40D67"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "276D6778AB239592"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "2B6BF17D42970837"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2075165311AAB0FA"]
+			id: "3CDD92D03CEC2630"
+			rewards: [
+				{
+					id: "33799AC2CC5DB0CC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "6C61C08787489728"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3CB2FBE76F94ED50"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CDD92D03CEC2630"]
+			id: "3C14F3DB3FC7008A"
+			rewards: [
+				{
+					id: "2C21C1E1811894C3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "7787EEA8B53B63AA"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "0FED7786E4F32563"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "6A18DD5E7C34869E"
+			rewards: [
+				{
+					id: "00284FA772A458AB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "52D9D71B1B3F1137"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "223FFD3B729981ED"
+				item: { count: 1, id: "deeperdarker:sculk_stone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A18DD5E7C34869E"]
+			id: "6AC82A13F15C1BEE"
+			optional: true
+			rewards: [{
+				id: "56EA94B8197C0D4E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "6CAE2C8BE2D0055C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "619A2068468B40D1"
+			rewards: [
+				{
+					id: "1A2473AB8E8F905C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "52C29F2F9E1750D2"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "47940246767EFDCD"
+				item: { count: 1, id: "deeperdarker:soul_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["619A2068468B40D1"]
+			id: "0CE0A87FD61A2B50"
+			optional: true
+			rewards: [
+				{
+					id: "253248A581662246"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "1C0BC0B562FD5B5C"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "05B0C270CB69AFDC"
+				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "74387494E99A776E"
+			optional: true
+			rewards: [
+				{
+					id: "482FD039137FD0B3"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "67F5D05E61B432C2"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "686019669381E4A8"
+				item: { count: 1, id: "deeperdarker:resonarium" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74387494E99A776E"]
+			id: "7E15E96D0108C18E"
+			rewards: [
+				{
+					id: "0F2AEF4FDE61629A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "43F2877E53C2718B"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "161F248A8A7DEBEA"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+}

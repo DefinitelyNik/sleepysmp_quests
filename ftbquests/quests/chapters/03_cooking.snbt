@@ -1,0 +1,520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "03_cooking"
+	group: ""
+	id: "668E410858822EC9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0DC1D86D1B84448A"
+			rewards: [
+				{
+					id: "7A1FB63E648AF13A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "6DB19367B4E2551C"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7205ABB292DA7BFC"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "32FF7C1B4DE0E2C6"
+			rewards: [
+				{
+					id: "36B4A9F0FF9E63A1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2C1DA926C1D12032"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4941F9743436B433"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "09651EF1F3CDD667"
+			rewards: [
+				{
+					id: "4BBC23B01C09D557"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7559CA5592909009"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7E80079963A0A77D"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09651EF1F3CDD667"]
+			id: "2D4A62142622B78C"
+			rewards: [
+				{
+					id: "28A2582E99D8F866"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6BDF140D9BA5459C"
+					item: {
+						count: 1
+						id: "minecraft:bowl"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1C99A9C874DCEF39"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "7A74C07E436DF16E"
+			rewards: [
+				{
+					id: "4A85EA7F96BD74F3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "637A41B8C814F250"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "4B65A35BAD1587BD"
+					item: { count: 1, id: "farmersdelight:rice" }
+					type: "item"
+				}
+				{
+					id: "7EC08276058735D7"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					id: "5883020DEFB6402C"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A74C07E436DF16E"]
+			id: "10BAA09874A84505"
+			rewards: [
+				{
+					id: "08B43FB847A05C5A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "72A0F10187122F11"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2E6A1C1F27210FFA"
+				item: { count: 1, id: "farmersdelight:fried_egg" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "68153392469FDC30"
+			rewards: [
+				{
+					id: "6D348AE6BAF201C2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2C6991FAFF003B1C"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "154B3E6CE504F71A"
+				item: { count: 1, id: "farmersdelight:cooked_rice" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68153392469FDC30"]
+			id: "7547382D260EBD39"
+			rewards: [
+				{
+					id: "328D9493148806E1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "314801E38C25145E"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7839BC2F5E4D1036"
+				item: { count: 1, id: "farmersdelight:hamburger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "4F7D2C97250D158F"
+			rewards: [
+				{
+					id: "63C34A4215D62EEE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "30D8B2693956A2CD"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6B81F8FBE56F97B5"
+				item: { count: 1, id: "cookingforblockheads:recipe_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F7D2C97250D158F"]
+			id: "06271E76B4048F89"
+			rewards: [
+				{
+					id: "57809E370843F7D5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "6A6EFA8BAB23A3DF"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "355E4C07145A67C5"
+				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06271E76B4048F89"]
+			id: "26C804A5A06C6CF1"
+			rewards: [
+				{
+					id: "16E4B03A886A46AE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "737DB89B77BB2BC9"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "39C3463AFC203E37"
+				item: { count: 1, id: "cookingforblockheads:white_fridge" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["26C804A5A06C6CF1"]
+			id: "7090FEDC5750E215"
+			optional: true
+			rewards: [
+				{
+					id: "4408E0521D924261"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "49DDC18B5847A94A"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3596764FF5618EC0"
+				item: { count: 1, id: "mynethersdelight:bullet_pepper" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "31AE266F0C5A1BE5"
+			optional: true
+			rewards: [
+				{
+					id: "6AFA441B6F1FB360"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "55788AD3FC536982"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "554D35084CD70D66"
+				item: { count: 1, id: "ends_delight:chorus_flower_pie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31AE266F0C5A1BE5"]
+			id: "5714567A840897C0"
+			rewards: [
+				{
+					id: "2E3F560C21DC53C5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "6BEA29C5E2C33E6E"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "04B908FB8E9667C5"
+				item: { count: 1, id: "farmersdelight:roast_chicken" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5714567A840897C0"]
+			id: "59934A73CAB2FC06"
+			optional: true
+			rewards: [
+				{
+					id: "528DF227C421D9AC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "71D87AC264384BE9"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1CF3AE65FCB7D361"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59934A73CAB2FC06"]
+			id: "5171E3E96EC49225"
+			optional: true
+			rewards: [
+				{
+					id: "5AF1AA220F233E90"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "312322B42A0AC0A1"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7466D313E014D47F"
+				item: { count: 1, id: "farmersdelight:wooden_basket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5171E3E96EC49225"]
+			id: "24637E6CCE05DDF6"
+			optional: true
+			rewards: [
+				{
+					id: "44AC6FB8C3697E17"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3FA3D1A62178BBAB"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1C16507221AECFA0"
+				item: { count: 1, id: "cookingforblockheads:white_sink" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "72A07AC57652A818"
+			optional: true
+			rewards: [
+				{
+					id: "4AFCA732CE7CB6C1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "670458410041B06C"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "345D28371946F6C7"
+				item: { count: 1, id: "cookingforblockheads:white_oven" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

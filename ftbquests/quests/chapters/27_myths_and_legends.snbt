@@ -1,0 +1,302 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "27_myths_and_legends"
+	group: "01E2E4898BB48984"
+	id: "5E03DF076025F0A8"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2216286FE032627C"
+			rewards: [
+				{
+					id: "08DF6551C3E19D7B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "480427195A249083"
+					item: {
+						count: 1
+						id: "mythsandlegends:ancient_copper_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0F18EDF6F8A46C0D"
+				item: { count: 1, id: "mythsandlegends:altar_of_the_dead" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0C4094F76271FD25"
+			rewards: [
+				{
+					id: "787D1BEB9394B1FC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "781DC5A70D9DC919"
+					item: {
+						count: 1
+						id: "mythsandlegends:ancient_copper_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "579C40D663C8C3F6"
+				item: { count: 1, id: "mythsandlegends:ancient_copper_coin" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "1AA6CEF85FA7DD76"
+			rewards: [
+				{
+					id: "08B88F7F4920F9FA"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "09E1E651598948E2"
+					item: {
+						count: 1
+						id: "mythsandlegends:ancient_copper_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0A8F863B5EFCCF88"
+				item: { count: 1, id: "mythsandlegends:bound_soul_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AA6CEF85FA7DD76"]
+			id: "2438F7B3D1FF9CD6"
+			rewards: [
+				{
+					id: "0209FDAC4FBDACE2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "191351F528E2DACB"
+					item: {
+						count: 1
+						id: "mythsandlegends:ancient_copper_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7CB324711ED1B291"
+				item: { count: 1, id: "mythsandlegends:cursed_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2438F7B3D1FF9CD6"]
+			id: "548F6100DFAC8767"
+			optional: true
+			rewards: [{
+				id: "6B4CF4AD43A1F204"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "mythsandlegends:draugr"
+				id: "41BE8818E3B57359"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["548F6100DFAC8767"]
+			id: "4F4AA0CA52CE9282"
+			optional: true
+			rewards: [{
+				id: "676A4B3AA31BE0F7"
+				type: "xp"
+				xp: 45
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "mythsandlegends:eidolon"
+				id: "01ABA255C1886918"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "44E3F50A7C214390"
+			optional: true
+			rewards: [{
+				id: "2D8430BFC7C6957D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "mythsandlegends:gargoyle"
+				id: "598A0C29D7529EAB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "7F7D0C693074301D"
+			optional: true
+			rewards: [{
+				id: "22E363EAD010A30A"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "mythsandlegends:chronicler"
+				id: "0DB294B9A1052926"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0E058C9D3EC8F20C"
+			optional: true
+			rewards: [
+				{
+					id: "2BA1FD55994CA249"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "64E4EB9700C33BA6"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "mythsandlegends:abaddon"
+				id: "3F0EA712F5D1D67E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			id: "1F93DAFA345922AE"
+			optional: true
+			rewards: [
+				{
+					id: "5CD078593D94D3B7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "129C27B572DA9F29"
+					item: {
+						count: 1
+						id: "mythsandlegends:ancient_copper_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6ED5874F4E542568"
+				item: { count: 1, id: "mythsandlegends:core_of_abaddon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F93DAFA345922AE"]
+			id: "0DAEF0B7B9EB2DD6"
+			optional: true
+			rewards: [
+				{
+					id: "23FF509AC87A5816"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "6D520F3B53F30187"
+					item: {
+						count: 1
+						id: "mythsandlegends:ancient_copper_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5EE4CB1C47B519C9"
+				item: { count: 1, id: "mythsandlegends:gargoyle_arm" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "48F387033BAF3EAF"
+			rewards: [
+				{
+					id: "70E88ABCF24D66E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "789911F68D75F01D"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3FB4A52488A4EF8C"
+				item: { count: 1, id: "mythsandlegends:antique_emblem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+	]
+}

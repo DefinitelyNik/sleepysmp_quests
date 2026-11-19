@@ -1,0 +1,453 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "34_alexs_caves"
+	group: "62488ED1F07C9AC2"
+	id: "7D6428F848D95B01"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "609E4210000CC39F"
+			rewards: [
+				{
+					id: "69A56ADDE7F37BD3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0F65927FE5FF0162"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "14C0DB6CA1C10CD1"
+				item: { count: 1, id: "alexscaves:cave_codex" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["609E4210000CC39F"]
+			id: "55F25C71789EC45E"
+			rewards: [
+				{
+					id: "6C3BA1D6F4B73933"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5B6290E9FD672BA5"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4B836378DDC4025C"
+				item: { count: 1, id: "alexscaves:spelunkery_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "77F8A834F80BF8C2"
+			rewards: [
+				{
+					id: "0A9A411095AB16C3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4BAF1FA5BF7E3718"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "36D870883C39298F"
+				item: { count: 1, id: "alexscaves:cave_map" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "23487B472302C138"
+			rewards: [
+				{
+					id: "0615A3994A078AB5"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2D2CBA4713D0B537"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "55999107FBE18FE0"
+				item: { count: 1, id: "alexscaves:pewen_sap" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23487B472302C138"]
+			id: "7E98C31D31FB6931"
+			optional: true
+			rewards: [
+				{
+					id: "498F1809EA18A836"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "35AA63690555887C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "7F240DDA74B43DF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			id: "19C0A7D6CFAF7BA5"
+			rewards: [
+				{
+					id: "157E53AB6F8D8CBA"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "42E45A2F56999901"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "7F29F9A59768B3D3"
+					item: { count: 1, id: "alexscaves:raw_azure_neodymium" }
+					type: "item"
+				}
+				{
+					id: "39C85F2B1F6FB79A"
+					item: { count: 1, id: "alexscaves:raw_scarlet_neodymium" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "132A715FA9E7C796"
+			rewards: [
+				{
+					id: "2B66CA08C0386399"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "72EF49BF9999ABEC"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3166EFC7E5941AF2"
+				item: { count: 1, id: "alexscaves:ferrouslime_ball" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "06319453CEF6422A"
+			rewards: [
+				{
+					id: "7A9FF58A88F44152"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "469F5C642D917886"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "142C5C94E8634E5B"
+				item: { count: 1, id: "alexscaves:uranium_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06319453CEF6422A"]
+			id: "19886DAB71F5C0DE"
+			rewards: [
+				{
+					id: "11F234861F04A976"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "393F95176D07F6C5"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5FBB085DBFEAAE0E"
+				item: { count: 1, id: "alexscaves:toxic_paste" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "18041B7FBD02DEBF"
+			optional: true
+			rewards: [
+				{
+					id: "372582EE6A9784FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7671A3183F5CABEB"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "3E25B772D40C04D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18041B7FBD02DEBF"]
+			id: "6DD711F6FE7ED980"
+			rewards: [
+				{
+					id: "25A3BEE526416268"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "4EFEE92F75D24475"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5E79A23B86A941BD"
+				item: { count: 1, id: "alexscaves:holocoder" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6DD711F6FE7ED980"]
+			id: "208172E75D8C1FF2"
+			rewards: [
+				{
+					id: "009257D8D7DE8709"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2F79BBF141C5ED20"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5E359F7EBD1FD919"
+				item: { count: 1, id: "alexscaves:notor_gizmo" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "28BB8DC401B11903"
+			optional: true
+			rewards: [
+				{
+					id: "0531B33867AEC360"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "472BAB4DEB907EFA"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexscaves:tremorzilla"
+				id: "73BFF44045A1389E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "6853BE292CACB366"
+			rewards: [
+				{
+					id: "6BF88A4C9A1C3E6B"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "60A86F41FCC5A466"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "23AD99932F5DBB96"
+				item: { count: 1, id: "alexscaves:polymer_plate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "7CB3FC4E4D24E3F3"
+			optional: true
+			rewards: [
+				{
+					id: "2BDD06D7F54682DD"
+					type: "xp"
+					xp: 225
+				}
+				{
+					count: 2
+					id: "60D572023F9FF641"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexscaves:atlatitan"
+				id: "068D47AD8D1815AD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CB3FC4E4D24E3F3"]
+			id: "6F69A210C88B1378"
+			optional: true
+			rewards: [
+				{
+					id: "2EF4344A1998572D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F5B1C8BC8F379EB"
+					item: {
+						count: 1
+						id: "alexscaves:guano"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "69499B08F20A346F"
+				item: { count: 1, id: "alexscaves:nuclear_bomb" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}

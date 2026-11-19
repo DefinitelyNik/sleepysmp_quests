@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "38_end"
+	group: "62488ED1F07C9AC2"
+	id: "746F93CC6C739EFB"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "55F22074D7C8113F"
+			rewards: [
+				{
+					id: "117F188C26342D11"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "260AE82B3CDE7822"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6D245E95458B379B"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F22074D7C8113F"]
+			id: "28E2031872BABA0A"
+			rewards: [
+				{
+					id: "14B9E548543A7C73"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "0F834426F5BE3CFA"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "00D067A2570CD10F"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "29237563CF0D26FE"
+			rewards: [
+				{
+					id: "0D3CD0760CC2561A"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2677A97C2DD64A8B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1E92C8ED34E7C6AF"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29237563CF0D26FE"]
+			id: "09042D67BCD0587C"
+			rewards: [
+				{
+					id: "67FF8A5EEF7BD1FE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "58E5CE2C2AF4F119"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1FAB4D642E766A5F"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "716D44A6894540AE"
+			rewards: [
+				{
+					id: "1D74963D53BF505F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1F54E84909F8E9E1"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7BAB704A20170A5D"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "4A9C9CAD128B42EE"
+			rewards: [
+				{
+					id: "6DBA17177109C5D8"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "57B8FC8D8F01AC0A"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "19FB2BA69DE7A182"
+				item: { count: 1, id: "minecraft:firework_rocket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "613C0550D8828FF9"
+			rewards: [
+				{
+					id: "1F7D61BC9C7B9282"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "7DA5C65193F2F16B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "04B3F0EEC46E2CF5"
+				item: { count: 1, id: "minecraft:purpur_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["613C0550D8828FF9"]
+			id: "359210B0285ECD82"
+			rewards: [
+				{
+					id: "616C70EE290330C3"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "2B7C0AA3C0F56CE0"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5395DEC744384397"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "6FE47E8BCE17C337"
+			rewards: [
+				{
+					id: "6A5942FB7B8D114D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "099DAD0D78349C5C"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "01E289B1BA828982"
+				item: { count: 1, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6FE47E8BCE17C337"]
+			id: "0973764DFB34C624"
+			rewards: [
+				{
+					id: "1DE46024E61A0EA5"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "2BE76C51AE0FF228"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1D59D0A3768C394F"
+				item: { count: 1, id: "minecraft:sculk_catalyst" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "290FA136CCF912D5"
+			optional: true
+			rewards: [
+				{
+					id: "724A1B48A617D770"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "0C33A82903FDF86B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "43803FF4D79F5C45"
+				item: { count: 1, id: "ends_delight:chorus_fruit_pie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["290FA136CCF912D5"]
+			id: "2C69F6807B6B0238"
+			rewards: [
+				{
+					id: "031738A9B3F7396A"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "5C48E71F1768426F"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4951F8809563DCB8"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}

@@ -1,0 +1,820 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "20_irons_spellbooks"
+	group: "01E2E4898BB48984"
+	id: "032B320FBF47C178"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4234D31A4AAAA6C5"
+			rewards: [
+				{
+					id: "02FECA5EBA5D9303"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "0CB8BB9C404369FC"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "17B8415E49087180"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4234D31A4AAAA6C5"]
+			id: "4BD30F32B7D44F16"
+			rewards: [
+				{
+					id: "4B742697BFBEE6C7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "6999FF183521573C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "38877C9CFF0754B9"
+				item: { count: 1, id: "irons_spellbooks:ruined_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "41DAF77D9A652210"
+			rewards: [
+				{
+					id: "25130F0B54A36E9E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "58B217848D704341"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "54A2671D39CF11BD"
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "3F507EC39CEBFAEF"
+			rewards: [
+				{
+					id: "129ED3B4AD15EC70"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5374B8DF771200EB"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4DFC9F6FF8FCEEEF"
+				item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F507EC39CEBFAEF"]
+			id: "2382DE9B74FAC206"
+			rewards: [
+				{
+					id: "562F97262ED10900"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "52415B3740E82C39"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "50D3ED8E93C45DCF"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "3CBEE18E376BC1B8"
+			rewards: [
+				{
+					id: "16A47A16B8E5C8DD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "2E8D23BE5CB8EE48"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "388CCF51AEEE3888"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "2A2CB70F728BFF9E"
+			rewards: [
+				{
+					id: "37CFCC94FDA47027"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "79CF477EE3839C41"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "46A14A36135B2E6F"
+				item: { count: 1, id: "irons_spellbooks:common_ink" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A2CB70F728BFF9E"]
+			id: "2BDFF25A54ED5E4F"
+			rewards: [
+				{
+					id: "684595E0D4AB6C8A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "1AF7F9E1129F4C51"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7E46F4D78B684364"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "0FFC9B99E5217BAF"
+			rewards: [
+				{
+					id: "6D69A06482A611CC"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "2E8F6B30418D13AA"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7720C837F1758788"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "2273255CE8D7B949"
+			rewards: [
+				{
+					id: "3F8FB83DD143A473"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "3202656E5C0156C3"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4AA97663A4BAB85E"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "040C456AA43D1BC3"
+			rewards: [
+				{
+					id: "2E99188A0CE3087C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "45E238CD77FC327C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0CE456B5F8520618"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "5A283C2DECC2A445"
+			rewards: [
+				{
+					id: "46C936F1F66E435B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "33B7F282CFA500FD"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "63AD0F2C8073DCB4"
+				item: { count: 1, id: "irons_spellbooks:blank_rune" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A283C2DECC2A445"]
+			id: "7022A913C7BB6AC9"
+			rewards: [
+				{
+					id: "69D32C2836FE7F40"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "492F4473186F8799"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "096C7D6A41CCCC44"
+				item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "7C4BCE16B889BF8E"
+			rewards: [
+				{
+					id: "375DFE54B7052ACB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "595D21884879BEED"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "42EB2C7DC3B0286D"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:blaze_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "13B51445F8F8761A"
+			optional: true
+			rewards: [
+				{
+					id: "4F957B32C86DC7A2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "488D9F21DBF91394"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7D256ADCE4DF0974"
+				item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "5F3C3F9E036F047A"
+			optional: true
+			rewards: [
+				{
+					id: "439BB4CE2883C433"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "19BA5D8155AFFABA"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "23CAB735E58BC7BF"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "20CB7A59829B1E94"
+			optional: true
+			rewards: [
+				{
+					id: "25A7E08E2EBF851D"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "787D446F2A73970D"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "21D12ABE82D0EFF1"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20CB7A59829B1E94"]
+			id: "6BE0EA31D093961B"
+			optional: true
+			rewards: [
+				{
+					id: "7AB98873AC5B8E32"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1AAF454A837C3863"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "6901A60259539119"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			id: "5C1919473BF3B026"
+			optional: true
+			rewards: [
+				{
+					id: "3316FE46C961CF52"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "18DE0834FADFEFAB"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:tyros"
+				id: "52AD1B4C5E3D3D18"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C1919473BF3B026"]
+			id: "4B5DAF3649AEBBA7"
+			optional: true
+			rewards: [
+				{
+					id: "0CDC9E8F395B061D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "2D8B658F35DF4ED8"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1DC30F5C7E23AF27"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:legendary_spell_book" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "0A161823BF99BA9E"
+			optional: true
+			rewards: [
+				{
+					id: "27CB23D489373EAF"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "5927237D060681B9"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6DE05F8A243C42AE"
+				item: { count: 1, id: "create_wizardry:arcane_casing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "244A486D30209A9B"
+			optional: true
+			rewards: [
+				{
+					id: "7CA18E77B5D61C7F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "03E61EC61CB59FAF"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6460746494D8E9BE"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:blaze_spell_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["244A486D30209A9B"]
+			id: "15776950037B8C39"
+			optional: true
+			rewards: [
+				{
+					id: "0CAE7A28E7F6E5A3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3A024A09F0405395"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0927F988E42A600B"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:ice_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "3ADEBEDAF16F874A"
+			optional: true
+			rewards: [
+				{
+					id: "3FA7F920EE886D51"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "401199C77B69A22C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0AA791ECF88A1E2A"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:fang_strike", index: 0, level: 6, locked: 1b }, { id: "irons_spellbooks:fang_ward", index: 1, level: 4, locked: 1b }, { id: "irons_spellbooks:summon_vex", index: 2, level: 4, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:evoker_spell_book" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3ADEBEDAF16F874A"]
+			id: "5763E726B5C3D8EB"
+			optional: true
+			rewards: [
+				{
+					id: "482F6552B6F73267"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3B4567A3892BF406"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "21C66E65FB903C70"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5763E726B5C3D8EB"]
+			id: "3E41287DF646548B"
+			optional: true
+			rewards: [
+				{
+					id: "1ABAE3AEEAF3CC25"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "087888C7AF53D1B9"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7FFC8A127C1A2CA1"
+				item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E41287DF646548B"]
+			id: "13C1D58A50BC27C3"
+			optional: true
+			rewards: [
+				{
+					id: "6B33F74BC7B6CEEF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "1FB373DAF137DFD1"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4D7C4BB8644F839B"
+				item: { count: 1, id: "irons_spellbooks:lightning_bottle" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "514D7DCE91CEB83E"
+			optional: true
+			rewards: [
+				{
+					id: "68E2E38F207AF46C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "2D3079E3594D24A8"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "133DD3B19A52A230"
+				item: { count: 1, id: "irons_spellbooks:blood_vial" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "23398CEC9CDE221F"
+			optional: true
+			rewards: [
+				{
+					id: "5991D93FEEEC9CFC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "31AEAFBD7D2CB2CE"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3357BF34FA2D4EF4"
+				item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+	]
+}

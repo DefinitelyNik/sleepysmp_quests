@@ -1,0 +1,497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "21_occultism"
+	group: "01E2E4898BB48984"
+	id: "121A9D6AD6E80F96"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6747CB1C0BE6B20C"
+			rewards: [
+				{
+					id: "092524C49121EB68"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7061620A4A5907EE"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "66573B5FB9CFF4CB"
+				item: { count: 1, id: "occultism:dictionary_of_spirits" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6747CB1C0BE6B20C"]
+			id: "01A0EF50CDFE8DCB"
+			rewards: [
+				{
+					id: "07E6A5F1BFDC6B30"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0595458F187EA8D1"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "535667488863536C"
+				item: { count: 1, id: "occultism:otherworld_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01A0EF50CDFE8DCB"]
+			id: "5DAE255D0282902E"
+			rewards: [
+				{
+					id: "4E830CC0BD047DD1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5509EFA0414FC191"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "26BDE7A403FE912B"
+				item: { count: 1, id: "occultism:spirit_attuned_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DAE255D0282902E"]
+			id: "7683B0EF23EA1089"
+			rewards: [
+				{
+					id: "0CD1DA5FC099FD5B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4EB29D211C461F18"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "52334AF2E210A1FC"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7683B0EF23EA1089"]
+			id: "4BA6C3F8CB03B77D"
+			rewards: [
+				{
+					id: "4B2EC0A6451E33A7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4D5FD05E0B7DB0D7"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "55547D3C3A074DE2"
+				item: { count: 1, id: "occultism:chalk_gold" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "146242036DB22F8D"
+			rewards: [
+				{
+					id: "4A88D7424A38AE13"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0E540787EFDE197F"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4D55E88CD42CF53C"
+				item: { count: 1, id: "occultism:chalk_purple" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "020AD08E472A9B62"
+			rewards: [
+				{
+					id: "1043E96FA2FF006C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "44E3053461C04582"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "76ED5A7D9DFC2258"
+				item: { count: 1, id: "occultism:chalk_red" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "1D735C2DC65DAD5D"
+			rewards: [
+				{
+					id: "55DF320890AF9CBC"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5B6BF9AD07764E78"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5D7F5FA73F5D2FF2"
+				item: { count: 1, id: "occultism:book_of_binding_foliot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "3753D10F5D03C0B1"
+			rewards: [
+				{
+					id: "00D4E1D76723B34E"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "3173411547592166"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2DC5A7FC9602A9AB"
+				item: { count: 1, id: "occultism:book_of_binding_djinni" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3753D10F5D03C0B1"]
+			id: "2D8DF509134B3C79"
+			rewards: [
+				{
+					id: "19222E04C542FB2C"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "2E48008FDAC24C9F"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "23D63E6401E6919C"
+				item: { count: 1, id: "occultism:book_of_binding_afrit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "4CA48E0574AB619E"
+			optional: true
+			rewards: [
+				{
+					id: "4547556CB8D5C93E"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "64872EB059C379E6"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5C9EAFE49FC02DBC"
+				item: { count: 1, id: "occultism:book_of_binding_marid" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "6DBF05BF9D5D7C5B"
+			optional: true
+			rewards: [
+				{
+					id: "163A95C202958F5F"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "44F774882680C2A9"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "36E74A52347EE903"
+				item: { count: 1, id: "occultism:storage_controller" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "0B4A507EA0592571"
+			optional: true
+			rewards: [
+				{
+					id: "41EEEE28F1CBF806"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "05C379754DED507B"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1E9521F1B396BECF"
+				item: { count: 1, id: "occultism:familiar_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B4A507EA0592571"]
+			id: "37A5F8DB865BF035"
+			rewards: [
+				{
+					id: "1AC151048B479AD4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7734C6EC7FAF9C07"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "20FC8FB341BD3956"
+				item: { count: 1, id: "occultism:chalk_rainbow" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37A5F8DB865BF035"]
+			id: "49E2762290887153"
+			optional: true
+			rewards: [
+				{
+					id: "6A1CEB44E664F52B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "47D263DEFDED4399"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "45F23B81FC490C1A"
+				item: { count: 1, id: "occultism:chalk_black" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49E2762290887153"]
+			id: "6A8BFC9F64737A09"
+			optional: true
+			rewards: [
+				{
+					id: "594ED65FDDE7772E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "18CF12D874C9C337"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4ACCB6BC95BB7571"
+				item: { count: 1, id: "occultism:chalk_blue" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "585E1A6D38074EFA"
+			optional: true
+			rewards: [
+				{
+					id: "4B539EE9D181635D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5D9ABE99CB36C07A"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5AA0289504149041"
+				item: { count: 1, id: "occultism:spirit_lantern" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["585E1A6D38074EFA"]
+			id: "312E2D0F18DE9E52"
+			optional: true
+			rewards: [
+				{
+					id: "16FDC6FBEA21E5A0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "08B19F8FD9DA0C03"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "600BEF1328AD966B"
+				item: { count: 1, id: "occultism:soul_gem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}

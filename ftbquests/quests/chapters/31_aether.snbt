@@ -1,0 +1,393 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "31_aether"
+	group: "62488ED1F07C9AC2"
+	id: "72E29D89EB0EC20E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4380C08683A08CFF"
+			rewards: [
+				{
+					id: "3F2A2AE3B9F17ECC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "030292388B10C6A1"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "387CD5BBDAB59B6E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4380C08683A08CFF"]
+			id: "6887576B883EA4D7"
+			rewards: [
+				{
+					id: "4F97DAE835CF9585"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4EFD6E756340C46E"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7A56A773753ADF01"
+				item: { count: 1, id: "aether:skyroot_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2255D5B1B75B87DA"
+			rewards: [
+				{
+					id: "64493EB091D9EECD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "350E6547372DA08B"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "588F0EB9E6962640"
+				item: { count: 1, id: "aether:holystone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2255D5B1B75B87DA"]
+			id: "4B1FD3A5513BFCA3"
+			rewards: [
+				{
+					id: "788A80492B69F0B6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "61E4F022E0A15A18"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "07241AD698D8A3DE"
+				item: { count: 1, id: "aether:ambrosium_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "17009862A1A78A65"
+			rewards: [
+				{
+					id: "6B0E00A4CDEB6C27"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "12C46E38D2FBC4EC"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0E72794CD1E5AC45"
+				item: { count: 1, id: "aether:zanite_gemstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17009862A1A78A65"]
+			id: "7E0856F2C20E3582"
+			rewards: [
+				{
+					id: "25A47982CC86C2D5"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "5EA5366E1DE2BDBC"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "aether:slider"
+				id: "3BD3F6002567CCE5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E0856F2C20E3582"]
+			id: "75545CAF74A9181D"
+			rewards: [
+				{
+					id: "3C17739EC7D9F621"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "18DBAB1CC90FD7FC"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5CDC6279D33EB4F4"
+				item: { count: 1, id: "aether:victory_medal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75545CAF74A9181D"]
+			id: "4FFA556A36722994"
+			rewards: [
+				{
+					id: "6C218ABA4097C3A0"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "02C737AA82DC1452"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3E40E11305891A53"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FFA556A36722994"]
+			id: "78296094AE95D5C7"
+			rewards: [
+				{
+					id: "19613B44BEBD6D26"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "2B21ED34C7D4A93F"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "51536D7C3710B2C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "682D52BDBCC6A80E"
+			rewards: [
+				{
+					id: "3B032BDA95A60A50"
+					type: "xp"
+					xp: 225
+				}
+				{
+					count: 2
+					id: "18970941AEAE854A"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "727DCB86B6144805"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			id: "07887425311DAD97"
+			optional: true
+			rewards: [
+				{
+					id: "7173720ECE0179D8"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "7574BE8767511382"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "42B5841E3E5019D2"
+				item: { count: 1, id: "aether:blue_moa_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07887425311DAD97"]
+			id: "5D624A00DFD502E1"
+			optional: true
+			rewards: [
+				{
+					id: "49FCB28AE5E7912B"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0A0410C65FEEFC77"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "624EDDA9E480A11C"
+				item: { count: 1, id: "aether:skyroot_bookshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "575C2203552C1C2A"
+			optional: true
+			rewards: [
+				{
+					id: "2E334678EA95FB0A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "6C36219FA7BCA068"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "760E8D543EAF4B53"
+				item: { count: 1, id: "deep_aether:stormforged_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["575C2203552C1C2A"]
+			id: "57DC44ADE9796F7F"
+			rewards: [
+				{
+					id: "0ADF9FA870637CED"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "79F7888E9611498C"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "27108586F3C0710A"
+				item: { count: 1, id: "aether:golden_feather" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}

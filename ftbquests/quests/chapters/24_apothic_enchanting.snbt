@@ -1,0 +1,459 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "24_apothic_enchanting"
+	group: "01E2E4898BB48984"
+	id: "75E8E23475411533"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49A2A1D5EF976C89"
+			rewards: [
+				{
+					id: "59A880B21B8DD5DE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "49D787869D243004"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0CFD582E34D07910"
+				item: { count: 1, id: "apothic_enchanting:apothic_enchanting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "769C685CFEFE5676"
+			rewards: [
+				{
+					id: "4B37274FEBC4FEF6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "21F1BDDF7D3AA44E"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6313B4C59B9B952C"
+				item: { count: 1, id: "apothic_enchanting:basic_bookshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["769C685CFEFE5676"]
+			id: "6BB757B871BC5FD6"
+			rewards: [
+				{
+					id: "7E92ECFF556DCDAF"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "0AADBA7D6087170B"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2B150DEF37E33329"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "21D233C00AC39910"
+			rewards: [
+				{
+					id: "20E19AD5C09FD340"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "4F381BBCDD4B3783"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "210D9ED6874096C0"
+				item: { count: 1, id: "apothic_enchanting:blazing_hellshelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "24ECAB182E523126"
+			rewards: [
+				{
+					id: "360DA34665993B16"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "7DD81C45B9CD6B9E"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6351F9D1B01979CE"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24ECAB182E523126"]
+			id: "0EF905EE898D3077"
+			optional: true
+			rewards: [
+				{
+					id: "2DBE1003789D9433"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "0CF79188B9368998"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "539AF352C5763606"
+				item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "0518E5559AE6AFAE"
+			optional: true
+			rewards: [
+				{
+					id: "2365CC6E52D13A49"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "62CA004D0FB110F2"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "36C639D5431BAAAC"
+				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "1235E76A3566DD8B"
+			rewards: [
+				{
+					id: "34CDAF224A7F191D"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "300457EF54833C68"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "110D026FF40BC207"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1235E76A3566DD8B"]
+			id: "5CE5F820907F4447"
+			optional: true
+			rewards: [
+				{
+					id: "792FF3083622C2DF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "6E43D2CEDCA70467"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "61D9F5B7F245937A"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CE5F820907F4447"]
+			id: "0534DA216562FDA5"
+			optional: true
+			rewards: [
+				{
+					id: "4320F9A212AB02E2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "43EF269747DD20CE"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4E5F53767C8DC56D"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0534DA216562FDA5"]
+			id: "6465F9E390254C59"
+			optional: true
+			rewards: [
+				{
+					id: "408D75316BD5390F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "6CDBDA04B58587CA"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1DA34AFF0E1B4919"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "303C3E9DCC319BC6"
+			rewards: [
+				{
+					id: "71A24806F2F8B72D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "31E2D128727FF133"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6C8CEA340186584D"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["303C3E9DCC319BC6"]
+			id: "09372049FFF66966"
+			optional: true
+			rewards: [
+				{
+					id: "5BC6BBD713FCA0EC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "15965790824A0A35"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "267EDB00A04B19F4"
+				item: { count: 1, id: "apothic_enchanting:glowing_hellshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "79937AA8222D1E5F"
+			optional: true
+			rewards: [
+				{
+					id: "3B8F7D79038537D9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "41F80CCBB78234C2"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4C2E5563B02680FD"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "0B349479C112ACD6"
+			optional: true
+			rewards: [
+				{
+					id: "7A6DC82D5C1F01EC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "33078501D96105B2"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "47073575E5508F14"
+				item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "5ACFE6FC2C01907E"
+			optional: true
+			rewards: [
+				{
+					id: "1AA9D224AF590D32"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4865499BCB39F3C3"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6361FF31B9F2C6AB"
+				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+	]
+}
