@@ -4,7 +4,8 @@
 	filename: "15_power_storage"
 	group: ""
 	id: "1DBE5A45B83DA538"
-	order_index: 8
+	images: [ ]
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
