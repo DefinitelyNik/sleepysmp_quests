@@ -4,7 +4,8 @@
 	filename: "03_cooking"
 	group: ""
 	id: "668E410858822EC9"
-	order_index: 1
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

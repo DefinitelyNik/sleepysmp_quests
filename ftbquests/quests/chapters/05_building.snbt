@@ -4,7 +4,8 @@
 	filename: "05_building"
 	group: ""
 	id: "45136FF0C4951466"
-	order_index: 2
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
